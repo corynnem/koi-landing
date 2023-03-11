@@ -8,14 +8,14 @@ const Welcome = () => {
 
 
 
-    useEffect(() => {
+    // useEffect(() => {
 
-    $('#ripples').ripples({
-        resolution: 512,
-        dropRadius: 20,
-        perturbance: 0.04,
-      });
-    }, [])
+    // $('#ripples').ripples({
+    //     resolution: 512,
+    //     dropRadius: 20,
+    //     perturbance: 0.04,
+    //   });
+    // }, [])
 
     return (
         <div id="ripples">
