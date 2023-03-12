@@ -2,9 +2,10 @@ import React, { useEffect } from 'react'
 import koi from '../public/images/koi.jpeg'
 import logo from '../public/images/logo.png'
 import $ from 'jquery'
+let ripples = import('jquery.ripples');
+
 
 const Welcome = () => {
-
 
 
 
