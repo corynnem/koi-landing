@@ -1,12 +1,17 @@
-import React, { useEffect } from "react";
-import koi from "../public/images/koi.jpeg";
-import logo from "../public/images/logo.png";
-import $ from "jquery";
+import React, { useEffect } from 'react'
+import koi from '../public/images/koi.jpeg'
+import logo from '../public/images/logo.png'
+import $ from 'jquery'
+let ripples = import('jquery.ripples');
+
 
 const Welcome = () => {
-  useEffect(() => {
-    $(document).ready(() => {
-      $("#ripples").ripples({
+
+
+
+    useEffect(() => {
+
+    $('#ripples').ripples({
         resolution: 512,
         dropRadius: 20,
         perturbance: 0.04,
@@ -17,43 +22,6 @@ const Welcome = () => {
 
   return (
     <div id="ripples">
-      {/* {windowPresent && (
-        <WaterWave
-          imageUrl={koi.src}
-          // style={{
-          //   width: "100vw",
-          //   zIndex: "-1000",
-          //   position: "relative",
-          //   marginTop: "-225px",
-          // }}
-        >
-          {(methods) => (
-            <h1
-              style={{
-                fontSize: "80px",
-                height: "80px",
-                position: "relative",
-                top: -30,
-                zIndex: 1000,
-                color: "white",
-                marginLeft: "50px",
-              }}
-            >
-              K
-              <img
-                src={logo.src}
-                style={{
-                  width: "80px",
-                  marginBottom: "-10px",
-                  position: "relative",
-                  zIndex: 1000,
-                }}
-              />
-              i
-            </h1>
-          )}
-        </WaterWave>
-      )} */}
       <h1
         style={{
           fontSize: "80px",
