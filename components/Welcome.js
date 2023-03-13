@@ -1,22 +1,15 @@
-import React, { useEffect } from 'react'
-import koi from '../public/images/koi.jpeg'
-import logo from '../public/images/logo.png'
-import $ from 'jquery'
-let ripples = import('jquery.ripples');
-
+import React, { useEffect } from "react";
+import koi from "../public/images/koi.jpeg";
+import logo from "../public/images/logo.png";
+import $ from "jquery";
+let ripples = import("jquery.ripples");
 
 const Welcome = () => {
-
-
-
-    useEffect(() => {
-
-    $('#ripples').ripples({
-        resolution: 512,
-        dropRadius: 20,
-        perturbance: 0.04,
-      });
-      screen;
+  useEffect(() => {
+    $("#ripples").ripples({
+      resolution: 512,
+      dropRadius: 20,
+      perturbance: 0.04,
     });
   }, []);
 
