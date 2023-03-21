@@ -48,7 +48,6 @@ const Welcome = () => {
           backgroundImage: `url(${koi.src})`,
         }}
       ></div>
-      {/* <img src={koi.src} style={{width: '100vw', zIndex: '-1000', position: 'relative', marginTop: '-225px'}}/> */}
     </div>
   );
 };
