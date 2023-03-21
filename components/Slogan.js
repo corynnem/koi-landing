@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LowerA from "../public/images/letters/LowerA.png";
 import LowerN from "../public/images/letters/LowerN.png";
 import UpperA from "../public/images/letters/UpperA.png";
@@ -19,21 +19,23 @@ import UpperU from "../public/images/letters/UpperU.png";
 import LowerL from "../public/images/letters/LowerL.png";
 import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
+import $ from "jquery";
 
 const Slogan = () => {
-  const largeStyle = {
-    height: "70px",
-  };
+  useEffect(() => {
+    const small = $(".small");
+    const medium = $(".medium");
+    const large = $(".large");
 
-  const mediumStyle = {
-    height: "60px",
-    marginTop: "10px",
-  };
+    const arr = [...small, ...medium, ...large];
 
-  const smallStyle = {
-    height: "50px",
-    marginTop: "20px",
-  };
+    arr.forEach((el) => {
+      let angle =
+        Math.ceil(Math.random() * 6) * (Math.round(Math.random()) ? 1 : -1);
+
+      $(el).css("transform", "rotate(" + angle + "deg)");
+    });
+  }, []);
 
   return (
     <div
