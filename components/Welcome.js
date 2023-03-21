@@ -12,20 +12,19 @@ const Welcome = () => {
     useEffect(() => {
 
     $('#ripples').ripples({
-        resolution: 512,
-        dropRadius: 20,
-        perturbance: 0.04,
+        resolution: 600,
+        dropRadius: 27,
+        perturbance: 0.05,
       });
     }, [])
 
     return (
-        <div id="ripples">
-                
+        <div>
                 <h1 style={{fontSize: '80px', height: '80px', position: 'relative', top: -30, zIndex: 1000, color: 'white', marginLeft: '50px' }} >
                     K<img src={logo.src} style={{width: '80px', marginBottom: '-10px', position: 'relative', zIndex: 1000}}/>i
                 </h1>
-                 <img src={koi.src} style={{width: '100vw', zIndex: '-1000', position: 'relative', marginTop: '-225px'}}/>
-            
+                <div id="ripples"  style={{width: '100vw',height: '50vw', position: 'relative',marginTop: '-225px', backgroundImage: `url(${koi.src})`}} >
+        </div> 
         </div>
     )
 }
