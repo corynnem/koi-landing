@@ -18,26 +18,26 @@ a {
 
 @media (max-width: 700px) {
   .small {
-    height: 10px;
+    height: 20px;
     margin-top: 8px;
   }
   .medium {
-    height: 15px;
+    height: 30px;
     margin-top: 4px;
   }
   .large {
-    height: 20px;
+    height: 40px;
   }
 }
 
 @media (min-width: 701px) and (max-width: 1024px) {
   .small {
     height: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .medium {
     height: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .large {
     height: 70px;

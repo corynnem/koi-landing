@@ -45,13 +45,15 @@ const Slogan = () => {
         position: "absolute",
         width: "100vw",
         top: "30%",
+        gap: "10%",
       }}
     >
       <div
         style={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
+          gap: "10%",
         }}
       >
         {" "}
@@ -76,6 +78,17 @@ const Slogan = () => {
           <img src={LowerP.src} className="medium" />
           <img src={LowerP2.src} className="medium" />
         </div>
+      </div>
+      <br />
+      <br />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gap: "10%",
+        }}
+      >
         <div
           style={{
             display: "flex",
@@ -117,7 +130,8 @@ const Slogan = () => {
         style={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
+          gap: "10%",
         }}
       >
         <div
@@ -148,6 +162,17 @@ const Slogan = () => {
           <img src={LowerA.src} className="medium" />
           <img src={LowerD.src} className="medium" />
         </div>
+      </div>
+      <br />
+      <br />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gap: "10%",
+        }}
+      >
         <div
           style={{
             display: "flex",
