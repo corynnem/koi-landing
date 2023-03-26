@@ -4,7 +4,12 @@ import Paper from "@mui/material/Paper";
 const About = () => {
   return (
     <div
-      style={{ display: "flex", justifyContent: "center", marginTop: "100px" }}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginTop: "100px",
+        marginTop: "200px",
+      }}
     >
       <div
         style={{
@@ -17,18 +22,17 @@ const About = () => {
         <h1>About Us</h1>
         <p>
           Looking for love? Tired of swiping through impersonal profiles on
-          corporate-owned dating apps? Look no further! Our dating app is all
-          about finding love without any restrictions or limitations. We believe
-          that finding love should be free, and everyone should have the
-          opportunity to find their soulmate without any financial barriers.
-          That's why our app is completely free to use, with no hidden fees or
-          charges.
+          corporate-owned dating apps? Look no further! Koi is all about finding
+          love without any restrictions or limitations. We believe that finding
+          love should be free, and everyone should have the opportunity to find
+          their soulmate without any financial barriers. That's why our app is
+          completely free to use, with no hidden fees or charges.
           <br />
           <br />
-          Our app is independently owned and operated, with no influence from
-          big corporations. We put you in control of your dating experience, so
-          you can connect with people who truly matter to you. At our dating
-          app, everyone is welcome regardless of age, sexuality, or gender. We
+          Koi is independently owned and operated, with no influence from big
+          corporations. We put you in control of your dating experience, so you
+          can connect with people who truly matter to you. At our dating app,
+          everyone is welcome regardless of age, sexuality, or gender. We
           believe that love is love, and it knows no boundaries. Our app is
           inclusive, diverse, and welcoming to
           <b> everyone</b>.

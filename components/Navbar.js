@@ -1,10 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../public/images/logo.png";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
   const router = useRouter();
+  const [width, setWidth] = useState(0);
   useEffect(() => {
+    setWidth(window.innerWidth);
+
     const hamburger = document.querySelector(".hamburger");
     const navLinks = document.querySelector(".nav-links");
     const links = document.querySelectorAll(".nav-links li");
@@ -26,29 +29,31 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         {/* <img src={logo.src} alt="Logo Image" /> */}
-        <h1
-          style={{
-            fontSize: "60px",
-            height: "60px",
-            position: "relative",
-            top: 10,
-            zIndex: 1000,
-            color: "white",
-            marginLeft: "50px",
-          }}
-        >
-          K
-          <img
-            src={logo.src}
+        {width > 700 && (
+          <h1
             style={{
-              //   width: "80px",
-              marginBottom: "-10px",
-              //   position: "relative",
-              //   zIndex: 1000,
+              fontSize: "60px",
+              height: "60px",
+              position: "relative",
+              top: 10,
+              zIndex: 1000,
+              color: "white",
+              marginLeft: "50px",
             }}
-          />
-          i
-        </h1>
+          >
+            K
+            <img
+              src={logo.src}
+              style={{
+                //   width: "80px",
+                marginBottom: "-10px",
+                //   position: "relative",
+                //   zIndex: 1000,
+              }}
+            />
+            i
+          </h1>
+        )}
       </div>
       <div className="hamburger">
         <div className="line1"></div>
