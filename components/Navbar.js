@@ -25,7 +25,30 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <img src={logo.src} alt="Logo Image" />
+        {/* <img src={logo.src} alt="Logo Image" /> */}
+        <h1
+          style={{
+            fontSize: "60px",
+            height: "60px",
+            position: "relative",
+            top: 10,
+            zIndex: 1000,
+            color: "white",
+            marginLeft: "50px",
+          }}
+        >
+          K
+          <img
+            src={logo.src}
+            style={{
+              //   width: "80px",
+              marginBottom: "-10px",
+              //   position: "relative",
+              //   zIndex: 1000,
+            }}
+          />
+          i
+        </h1>
       </div>
       <div className="hamburger">
         <div className="line1"></div>
