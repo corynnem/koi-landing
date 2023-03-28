@@ -41,7 +41,6 @@ const OurTeam = () => {
             justifyContent: "space-around",
             flexWrap: "wrap",
             marginTop: "100px",
-            marginBottom: "100px",
           }}
         >
           <div style={headshotWrapper}>

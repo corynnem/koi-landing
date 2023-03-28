@@ -28,7 +28,6 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        {/* <img src={logo.src} alt="Logo Image" /> */}
         {width > 700 && (
           <h1
             style={{
@@ -45,10 +44,7 @@ const Navbar = () => {
             <img
               src={logo.src}
               style={{
-                //   width: "80px",
                 marginBottom: "-10px",
-                //   position: "relative",
-                //   zIndex: 1000,
               }}
             />
             i
