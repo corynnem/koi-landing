@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LowerA from "../public/images/letters/LowerA.png";
 import LowerN from "../public/images/letters/LowerN.png";
 import UpperA from "../public/images/letters/UpperA.png";
@@ -19,21 +19,23 @@ import UpperU from "../public/images/letters/UpperU.png";
 import LowerL from "../public/images/letters/LowerL.png";
 import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
+import $ from "jquery";
 
 const Slogan = () => {
-  const largeStyle = {
-    height: "70px",
-  };
+  useEffect(() => {
+    const small = $(".small");
+    const medium = $(".medium");
+    const large = $(".large");
 
-  const mediumStyle = {
-    height: "60px",
-    marginTop: "10px",
-  };
+    const arr = [...small, ...medium, ...large];
 
-  const smallStyle = {
-    height: "50px",
-    marginTop: "20px",
-  };
+    arr.forEach((el) => {
+      let angle =
+        Math.ceil(Math.random() * 6) * (Math.round(Math.random()) ? 1 : -1);
+
+      $(el).css("transform", "rotate(" + angle + "deg)");
+    });
+  }, []);
 
   return (
     <div
@@ -43,13 +45,15 @@ const Slogan = () => {
         position: "absolute",
         width: "100vw",
         top: "30%",
+        gap: "10%",
       }}
     >
       <div
         style={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
+          gap: "10%",
         }}
       >
         {" "}
@@ -74,6 +78,17 @@ const Slogan = () => {
           <img src={LowerP.src} className="medium" />
           <img src={LowerP2.src} className="medium" />
         </div>
+      </div>
+      <br />
+      <br />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gap: "10%",
+        }}
+      >
         <div
           style={{
             display: "flex",
@@ -115,7 +130,8 @@ const Slogan = () => {
         style={{
           display: "flex",
           flexDirection: "row",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
+          gap: "10%",
         }}
       >
         <div
@@ -146,6 +162,17 @@ const Slogan = () => {
           <img src={LowerA.src} className="medium" />
           <img src={LowerD.src} className="medium" />
         </div>
+      </div>
+      <br />
+      <br />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          gap: "10%",
+        }}
+      >
         <div
           style={{
             display: "flex",

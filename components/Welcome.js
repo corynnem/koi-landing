@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import koi from "../public/images/koi.jpeg";
+import ocean from "../public/images/waterCollage.jpg";
 import logo from "../public/images/logo.png";
 import $ from "jquery";
 let ripples = import("jquery.ripples");
+import Slogan from "./Slogan";
 
 const Welcome = () => {
   useEffect(() => {
@@ -15,7 +16,7 @@ const Welcome = () => {
 
   return (
     <div>
-      <h1
+      {/* <h1
         style={{
           fontSize: "80px",
           height: "80px",
@@ -37,17 +38,28 @@ const Welcome = () => {
           }}
         />
         i
-      </h1>
+      </h1> */}
+
       <div
         id="ripples"
         style={{
-          width: "100vw",
-          height: "50vw",
+          backgroundSize: "cover",
+          height: "100vh",
           position: "relative",
-          marginTop: "-225px",
-          backgroundImage: `url(${koi.src})`,
+          backgroundImage: ` url(${ocean.src})`,
         }}
-      ></div>
+      >
+        <div
+          style={{
+            backgroundSize: "cover",
+            width: "100%",
+            height: "100%",
+            position: "relative",
+            background: "rgba(1, 50, 100, 0.5)",
+          }}
+        ></div>
+      </div>
+      <Slogan />
     </div>
   );
 };
