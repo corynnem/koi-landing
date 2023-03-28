@@ -10,7 +10,12 @@ const MissionStatement = () => {
 
   return (
     <div
-      style={{ display: "flex", justifyContent: "center", marginTop: "100px" }}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginTop: "200px",
+        marginBottom: "150px",
+      }}
     >
       <Paper
         style={{

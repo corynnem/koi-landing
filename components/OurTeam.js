@@ -5,7 +5,6 @@ import headshot from "../public/images/testImages/headshot.jpg";
 const OurTeam = () => {
   const headshotStyles = {
     height: "40vh",
-    marginTop: "10px",
     width: "auto",
   };
   const headshotWrapper = {
@@ -41,6 +40,8 @@ const OurTeam = () => {
             flexDirection: "row",
             justifyContent: "space-around",
             flexWrap: "wrap",
+            marginTop: "100px",
+            marginBottom: "100px",
           }}
         >
           <div style={headshotWrapper}>
