@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Welcome from "components/Welcome";
 import About from "components/AboutUs";
 import MissionStatement from "components/MissionStatement";
+import OurTeam from "components/OurTeam";
 import { ThemeProvider } from "@emotion/react";
 import { theme } from "styles/theme";
 import { StyledEngineProvider } from "@mui/material/styles";
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
 
         <MissionStatement />
+        <OurTeam />
       </ThemeProvider>
     </StyledEngineProvider>
   );
