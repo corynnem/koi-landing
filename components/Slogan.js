@@ -19,6 +19,7 @@ import UpperU from "../public/images/letters/UpperU.png";
 import LowerL from "../public/images/letters/LowerL.png";
 import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
+import koi from "../public/images/koi.jpeg";
 import $ from "jquery";
 
 const Slogan = () => {
@@ -39,53 +40,21 @@ const Slogan = () => {
 
   return (
     <div
+      className="ripples"
       style={{
-        display: "flex",
-        flexDirection: "column",
-        position: "absolute",
-        width: "100vw",
-        top: "30%",
-        gap: "10%",
+        backgroundSize: "cover",
+        height: "100vh",
+        position: "relative",
+        backgroundImage: ` url(${koi.src})`,
       }}
     >
       <div
         style={{
           display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          gap: "10%",
-        }}
-      >
-        {" "}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px",
-          }}
-        >
-          <img src={UpperA.src} className="large" />
-          <img src={LowerN.src} className="medium" />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px",
-          }}
-        >
-          <img src={LowerA.src} className="medium" />
-          <img src={LowerP.src} className="medium" />
-          <img src={LowerP2.src} className="medium" />
-        </div>
-      </div>
-      <br />
-      <br />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
+          flexDirection: "column",
+          position: "absolute",
+          width: "95vw",
+          top: "30%",
           gap: "10%",
         }}
       >
@@ -93,110 +62,152 @@ const Slogan = () => {
           style={{
             display: "flex",
             flexDirection: "row",
-            gap: "10px",
+            justifyContent: "center",
+            gap: "10%",
           }}
         >
-          <img src={UpperT.src} className="medium" />
-          <img src={LowerO.src} className="small" />
+          {" "}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperA.src} className="large" />
+            <img src={LowerN.src} className="medium" />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={LowerA.src} className="medium" />
+            <img src={LowerP.src} className="medium" />
+            <img src={LowerP2.src} className="medium" />
+          </div>
         </div>
+        <br />
+        <br />
         <div
           style={{
             display: "flex",
             flexDirection: "row",
-            gap: "10px",
+            justifyContent: "center",
+            gap: "10%",
           }}
         >
-          <img src={UpperF.src} className="medium" />
-          <img src={LowerI.src} className="medium" />
-          <img src={LowerN.src} className="medium" />
-          <img src={LowerD.src} className="medium" />
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperT.src} className="medium" />
+            <img src={LowerO.src} className="small" />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperF.src} className="medium" />
+            <img src={LowerI.src} className="medium" />
+            <img src={LowerN.src} className="medium" />
+            <img src={LowerD.src} className="medium" />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperL.src} className="medium" />
+            <img src={LowerO.src} className="small" />
+            <img src={LowerV.src} className="medium" />
+            <img src={UpperE.src} className="small" />
+          </div>
         </div>
+        <br />
+        <br />
         <div
           style={{
             display: "flex",
             flexDirection: "row",
-            gap: "10px",
+            justifyContent: "center",
+            gap: "10%",
           }}
         >
-          <img src={UpperL.src} className="medium" />
-          <img src={LowerO.src} className="small" />
-          <img src={LowerV.src} className="medium" />
-          <img src={UpperE.src} className="small" />
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperS.src} className="medium" />
+            <img src={LowerH.src} className="medium" />
+            <img src={LowerO.src} className="small" />
+            <img src={UpperU.src} className="medium" />
+            <img src={LowerL.src} className="medium" />
+            <img src={LowerD.src} className="medium" />
+            <img src={LowerN.src} className="medium" />
+            <img src={LowerT.src} className="medium" />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperL.src} className="medium" />
+            <img src={UpperE.src} className="small" />
+            <img src={LowerA.src} className="medium" />
+            <img src={LowerD.src} className="medium" />
+          </div>
         </div>
+        <br />
+        <br />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            gap: "10%",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperY.src} className="medium" />
+            <img src={UpperO.src} className="medium" />
+            <img src={UpperU.src} className="medium" />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: "10px",
+            }}
+          >
+            <img src={UpperO.src} className="medium" />
+            <img src={LowerN.src} className="medium" />
+          </div>
+        </div>
+        <div style={{ display: "flex", flexDirection: "row" }}></div>
+        <div style={{ display: "flex", flexDirection: "row" }}></div>
       </div>
-      <br />
-      <br />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          gap: "10%",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px",
-          }}
-        >
-          <img src={UpperS.src} className="medium" />
-          <img src={LowerH.src} className="medium" />
-          <img src={LowerO.src} className="small" />
-          <img src={UpperU.src} className="medium" />
-          <img src={LowerL.src} className="medium" />
-          <img src={LowerD.src} className="medium" />
-          <img src={LowerN.src} className="medium" />
-          <img src={LowerT.src} className="medium" />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px",
-          }}
-        >
-          <img src={UpperL.src} className="medium" />
-          <img src={UpperE.src} className="small" />
-          <img src={LowerA.src} className="medium" />
-          <img src={LowerD.src} className="medium" />
-        </div>
-      </div>
-      <br />
-      <br />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          gap: "10%",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px",
-          }}
-        >
-          <img src={UpperY.src} className="medium" />
-          <img src={UpperO.src} className="medium" />
-          <img src={UpperU.src} className="medium" />
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "10px",
-          }}
-        >
-          <img src={UpperO.src} className="medium" />
-          <img src={LowerN.src} className="medium" />
-        </div>
-      </div>
-      <div style={{ display: "flex", flexDirection: "row" }}></div>
-      <div style={{ display: "flex", flexDirection: "row" }}></div>
     </div>
   );
 };
