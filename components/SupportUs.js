@@ -23,7 +23,6 @@ const SupportUs = () => {
       <div style={{ display: "flex", justifyContent: "center", gap: "40px" }}>
         <img src={tikTok.src} style={iconStyles} />
         <img src={patreon.src} style={iconStyles} />
-        {/* <img /> */}
       </div>
     </div>
   );
