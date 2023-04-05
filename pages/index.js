@@ -10,8 +10,13 @@ import { ThemeProvider } from "@emotion/react";
 import { theme } from "styles/theme";
 import { StyledEngineProvider } from "@mui/material/styles";
 import Navbar from "components/Navbar";
+import dynamic from 'next/dynamic'
+
 
 export default function Home() {
+  const WelcomeNoSSR = dynamic(() => import('../components/Welcome'), {
+    ssr: false,
+  })
   return (
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
@@ -21,7 +26,8 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
-        <Welcome />
+        <WelcomeNoSSR />
+        
         <About />
         <MissionStatement />
         <OurTeam />
