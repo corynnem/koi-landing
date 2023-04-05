@@ -25,8 +25,8 @@ const About = () => {
           corporate-owned dating apps? Look no further! Koi is all about finding
           love without any restrictions or limitations. We believe that finding
           love should be free, and everyone should have the opportunity to find
-          their soulmate without any financial barriers. That's why our app is
-          completely free to use, with no hidden fees or charges.
+          their soulmate without any financial barriers. That&apos;s why our app
+          is completely free to use, with no hidden fees or charges.
           <br />
           <br />
           Koi is independently owned and operated, with no influence from big
@@ -38,23 +38,24 @@ const About = () => {
           <b> everyone</b>.
           <br />
           <br />
-          We also believe that dating should be fun! That's why we've designed
-          our app to be engaging, interactive, and exciting. You'll have a blast
-          swiping through profiles, sending messages, and making meaningful
-          connections with like-minded people. Our app is not just another
-          corporate-owned dating app that feels mechanical, disconnected, and
-          impersonal. We're a community-driven platform that values human
-          connection and real relationships. We're committed to creating a
-          dating experience that's personal, authentic, and meaningful. And most
-          importantly, we will not sell out to large corporations.
+          We also believe that dating should be fun! That&apos;s why we&apos;ve
+          designed our app to be engaging, interactive, and exciting.
+          You&apos;ll have a blast swiping through profiles, sending messages,
+          and making meaningful connections with like-minded people. Our app is
+          not just another corporate-owned dating app that feels mechanical,
+          disconnected, and impersonal. We&apos;re a community-driven platform
+          that values human connection and real relationships. We&apos;re
+          committed to creating a dating experience that&apos;s personal,
+          authentic, and meaningful. And most importantly, we will not sell out
+          to large corporations.
           <br />
           <br />
-          We respect your privacy and your personal data, and we'll never
-          compromise on that. We're here to build a better dating app that
+          We respect your privacy and your personal data, and we&apos;ll never
+          compromise on that. We&apos;re here to build a better dating app that
           balances the playing field between genders and promotes healthy, happy
           relationships. So, what are you waiting for? Download our dating app
-          today and start your journey to finding love. We promise it'll be an
-          experience like no other!
+          today and start your journey to finding love. We promise it&apos;ll be
+          an experience like no other!
         </p>
       </div>
     </div>
