@@ -58,19 +58,19 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <a onClick={() => router.push("/home")}>Home</a>
+          <a onClick={() => router.push("/")}>Home</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>The Project</a>
+          <a onClick={() => router.push("/about")}>The Project</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>Our Team</a>
+          <a onClick={() => router.push("/team")}>Our Team</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>Support</a>
+          <a onClick={() => router.push("/support-us")}>Support Us</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>Contact Us</a>
+          <a onClick={() => router.push("/contact-us")}>Contact Us</a>
         </li>
       </ul>
     </nav>
