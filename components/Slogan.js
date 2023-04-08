@@ -19,7 +19,7 @@ import UpperU from "../public/images/letters/UpperU.png";
 import LowerL from "../public/images/letters/LowerL.png";
 import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
-import koi from "../public/images/koi.jpeg";
+import koi from "../public/images/underwater_rocks.jpg";
 import $ from "jquery";
 
 const Slogan = () => {
@@ -44,8 +44,10 @@ const Slogan = () => {
       style={{
         backgroundSize: "cover",
         height: "100vh",
+        minWidth: "354px",
         position: "relative",
         backgroundImage: ` url(${koi.src})`,
+        
       }}
     >
       <div
