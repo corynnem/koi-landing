@@ -9,6 +9,7 @@ const SupportUs = () => {
   };
   return (
     <div
+    className=" dot-border-yellow"
       style={{
         display: "flex",
         justifyContent: "center",
@@ -17,6 +18,7 @@ const SupportUs = () => {
         marginTop: "200px",
         gap: "50px",
         marginBottom: "100px",
+        
       }}
     >
       <h1>Support Us</h1>
