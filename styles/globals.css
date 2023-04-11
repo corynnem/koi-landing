@@ -1,7 +1,7 @@
 :root {
-/* change to 'none' to remove all testing borders */
+  /* change to 'none' to remove all testing borders */
 
-/* original setting => solid */
+  /* original setting => solid */
   --border-setting: none;
   /* original setting => dotted */
   --dot-border-setting: none;
@@ -26,7 +26,7 @@ a {
   box-sizing: border-box;
 }
 
-.outline{
+.outline {
   border: 2px solid rgba(0, 0, 0, 90%);
 }
 
@@ -55,6 +55,7 @@ a {
   }
   .large {
     height: 8vh;
+    margin-top: 20px;
   }
 }
 
@@ -71,7 +72,7 @@ a {
     height: 9vh;
   }
 
-  .break-space{
+  .break-space {
     height: 6vh;
   }
 }
@@ -101,12 +102,12 @@ nav {
 
 /* styling div containers like torn paper */
 
-.torn-top{
+.torn-top {
   background: white;
-  clip-path: url(#path) ;
+  clip-path: url(#path);
 }
 
-.torn-paper-shadow{
+.torn-paper-shadow {
   filter: drop-shadow(0px -3px 2px rgba(0, 0, 0, 0.438));
 }
 
@@ -245,37 +246,36 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-
 /* for testing purposes, these are great for visualising elements  */
 
-.border-green{
+.border-green {
   border: 4px var(--border-setting) green;
 }
-.border-red{
+.border-red {
   border: 4px var(--border-setting) red;
 }
-.border-yellow{
+.border-yellow {
   border: 4px var(--border-setting) yellow;
 }
-.border-blue{
+.border-blue {
   border: 4px var(--border-setting) blue;
 }
-.border-purple{
+.border-purple {
   border: 4px var(--border-setting) purple;
 }
 
-.dot-border-green{
+.dot-border-green {
   border: 4px var(--dot-border-setting) green;
 }
-.dot-border-red{
+.dot-border-red {
   border: 4px var(--dot-border-setting) red;
 }
-.dot-border-yellow{
+.dot-border-yellow {
   border: 4px var(--dot-border-setting) yellow;
 }
-.dot-border-blue{
+.dot-border-blue {
   border: 4px var(--dot-border-setting) blue;
 }
-.dot-border-purple{
+.dot-border-purple {
   border: 4px var(--dot-border-setting) purple;
 }
