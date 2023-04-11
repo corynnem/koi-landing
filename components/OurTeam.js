@@ -18,7 +18,6 @@ const OurTeam = () => {
       style={{
         display: "flex",
         justifyContent: "center",
-
         textAlign: "center",
       }}
     >

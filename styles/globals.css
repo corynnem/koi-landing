@@ -1,3 +1,12 @@
+:root {
+  /* change to 'none' to remove all testing borders */
+
+  /* original setting => solid */
+  --border-setting: none;
+  /* original setting => dotted */
+  --dot-border-setting: none;
+}
+
 html,
 body {
   padding: 0;
@@ -17,6 +26,10 @@ a {
   box-sizing: border-box;
 }
 
+.outline {
+  border: 2px solid rgba(0, 0, 0, 90%);
+}
+
 @media (max-width: 700px) {
   .small {
     height: 20px;
@@ -33,29 +46,34 @@ a {
 
 @media (min-width: 701px) and (max-width: 1024px) {
   .small {
-    height: 30px;
+    height: 5vh;
     margin-top: 40px;
   }
   .medium {
-    height: 40px;
+    height: 6vh;
     margin-top: 30px;
   }
   .large {
-    height: 70px;
+    height: 8vh;
+    margin-top: 20px;
   }
 }
 
 @media (min-width: 1025px) {
   .small {
-    height: 50px;
+    height: 6vh;
     margin-top: 20px;
   }
   .medium {
-    height: 60px;
+    height: 7vh;
     margin-top: 10px;
   }
   .large {
-    height: 70px;
+    height: 9vh;
+  }
+
+  .break-space {
+    height: 6vh;
   }
 }
 
@@ -80,6 +98,17 @@ nav {
   font-family: sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
+}
+
+/* styling div containers like torn paper */
+
+.torn-top {
+  background: white;
+  clip-path: url(#path);
+}
+
+.torn-paper-shadow {
+  filter: drop-shadow(0px -3px 2px rgba(0, 0, 0, 0.438));
 }
 
 /*Styling logo*/
@@ -215,4 +244,38 @@ nav {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* for testing purposes, these are great for visualising elements  */
+
+.border-green {
+  border: 4px var(--border-setting) green;
+}
+.border-red {
+  border: 4px var(--border-setting) red;
+}
+.border-yellow {
+  border: 4px var(--border-setting) yellow;
+}
+.border-blue {
+  border: 4px var(--border-setting) blue;
+}
+.border-purple {
+  border: 4px var(--border-setting) purple;
+}
+
+.dot-border-green {
+  border: 4px var(--dot-border-setting) green;
+}
+.dot-border-red {
+  border: 4px var(--dot-border-setting) red;
+}
+.dot-border-yellow {
+  border: 4px var(--dot-border-setting) yellow;
+}
+.dot-border-blue {
+  border: 4px var(--dot-border-setting) blue;
+}
+.dot-border-purple {
+  border: 4px var(--dot-border-setting) purple;
 }

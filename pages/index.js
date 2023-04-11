@@ -2,10 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Welcome from "components/Welcome";
-import About from "components/AboutUs";
-import MissionStatement from "components/MissionStatement";
-import OurTeam from "components/OurTeam";
-import SupportUs from "components/SupportUs";
 import { ThemeProvider } from "@emotion/react";
 import { theme } from "styles/theme";
 import { StyledEngineProvider } from "@mui/material/styles";
@@ -27,11 +23,8 @@ export default function Home() {
         </Head>
         <Navbar />
         <WelcomeNoSSR />
+        {/* All other comonents are now loaded inside Slogan to achive ripples background */}
         
-        <About />
-        <MissionStatement />
-        <OurTeam />
-        <SupportUs />
       </ThemeProvider>
     </StyledEngineProvider>
   );
