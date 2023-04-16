@@ -2,11 +2,20 @@ import React from "react";
 import Image from 'next/image'
 import woodGroup from "../public/images/fig_16.png";
 import Paper from "@mui/material/Paper";
-import letterA from "../public/images/letters/A3.png";
-import letterB from "../public/images/letters/b1.jpg";
+import letterT from "../public/images/letters/t1.png";
+import letterH from "../public/images/letters/h1.jpg";
+import letterE from "../public/images/letters/E1.png";
+import letterP from "../public/images/letters/p2.png";
+import letterR from "../public/images/letters/r1.jpg";
 import letterO from "../public/images/letters/o1.jpg";
-import letterU from "../public/images/letters/U2.png";
-import letterT from "../public/images/letters/LowerT.png";
+import letterJ from "../public/images/letters/j1.jpg";
+import letterE2 from "../public/images/letters/E4.png";
+import letterC from "../public/images/letters/C4.png";
+import letterT2 from "../public/images/letters/t3.png";
+import paperBackdrop from "../public/images/paper_backdrop.jpg";
+import swiping from "../public/images/swiping.png";
+import pay from "../public/images/pay_for_love.png";
+import robots from "../public/images/robots.png";
 
 const About = () => {
   return (
@@ -75,13 +84,14 @@ const About = () => {
             justifyContent: "center",
             width: "80vw",
             flexDirection: "column",
-            // backgroundColor: "white",
+            backgroundImage: ` url(${paperBackdrop.src})`,
             padding: "50px 10px 10px 10px"
             
           }}
         >
-
+          
           {/* start about header  */}
+         
           <div 
           className="border-red"
           >
@@ -89,54 +99,156 @@ const About = () => {
                   style={{
                     display: "flex",
                     flexDirection: "row",
+                    flexWrap: "wrap",
                     gap: "10px",
                     paddingBottom: "20px",
+                    justifyContent: "center",
                   }}
                 >
-                  <img src={letterA.src} className=" outline large" />
-                  <img src={letterB.src} className=" outline medium" />
+                  <div>
+                  <img src={letterT.src} className=" outline large" />
+                  <img src={letterH.src} className=" outline medium" />
+                  <img src={letterE.src} className=" outline medium" />
+                  </div>
+
+                  <div>
+                  <img src={letterP.src} className=" outline medium" />
+                  <img src={letterR.src} className=" outline medium" />
                   <img src={letterO.src} className=" outline medium" />
-                  <img src={letterU.src} className=" outline medium" />
-                  <img src={letterT.src} className=" outline medium" />
+                  <img src={letterJ.src} className=" outline medium" />
+                  <img src={letterE2.src} className=" outline medium" />
+                  <img src={letterC.src} className=" outline medium" />
+                  <img src={letterT2.src} className=" outline medium" />
+                  </div>
+
                 </div>
           </div>
+          
           {/* END about header  */}
+          
           <p>
-            Looking for love? Tired of swiping through impersonal profiles on
-            corporate-owned dating apps? Look no further! Koi is all about finding
-            love without any restrictions or limitations. We believe that finding
-            love should be free, and everyone should have the opportunity to find
-            their soulmate without any financial barriers. That's why our app is
-            completely free to use, with no hidden fees or charges.
+            WE ARE MAKING A DATING APP THAT ACTUALLY WORKS!!
             <br />
             <br />
-            Koi is independently owned and operated, with no influence from big
-            corporations. We put you in control of your dating experience, so you
-            can connect with people who truly matter to you. At our dating app,
-            everyone is welcome regardless of age, sexuality, or gender. We
-            believe that love is love, and it knows no boundaries. Our app is
-            inclusive, diverse, and welcoming to
-            <b> everyone</b>.
-            <br />
-            <br />
-            We also believe that dating should be fun! That's why we've designed
-            our app to be engaging, interactive, and exciting. You'll have a blast
-            swiping through profiles, sending messages, and making meaningful
-            connections with like-minded people. Our app is not just another
-            corporate-owned dating app that feels mechanical, disconnected, and
-            impersonal. We're a community-driven platform that values human
-            connection and real relationships. We're committed to creating a
-            dating experience that's personal, authentic, and meaningful. And most
-            importantly, we will not sell out to large corporations.
-            <br />
-            <br />
-            We respect your privacy and your personal data, and we'll never
-            compromise on that. We're here to build a better dating app that
-            balances the playing field between genders and promotes healthy, happy
-            relationships. So, what are you waiting for? Download our dating app
-            today and start your journey to finding love. We promise it'll be an
-            experience like no other!
+            We are doing away with: 
           </p>
+          {/* Start No smoking images */}
+          <div
+          className="border-purple"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            gap: "50px 20px",
+            paddingTop: "35px",
+          }}
+          >
+            <div
+            className="orange-square"
+            >
+            <Image src={swiping} 
+            className="png-shadow center-xy"
+            style={
+              {
+                width: '90%',
+                height: "auto",
+              }} />
+              <p
+              className="center-x orange-square-header"
+              >SWIPING</p>
+            </div>
+
+            <div
+            className="orange-square"
+            >
+            <Image src={pay} 
+            className=" png-shadow center-xy"
+            style={
+              {
+                width: '90%',
+                height: 'auto',
+                
+              }} />
+              <p
+              className="center-x orange-square-header"
+              >PAYING</p>
+            </div>
+
+            <div
+            className="orange-square"
+            >
+            <Image src={robots} 
+            className=" png-shadow center-xy"
+            style={
+              {
+                width: '90%',
+                height: 'auto',
+                
+              }} />
+              <p
+              className="center-x orange-square-header"
+              >BOTS</p>
+            </div>
+            
+            <div
+            className="orange-square"
+            >
+            
+              <p
+              className="center-x orange-square-header"
+              >Also</p>
+              <p
+              className="spikey-1 spikey-box png-shadow  "
+              >CATFISH</p>
+              <p
+              className="spikey-2 stubble-box png-shadow  "
+              >LIES</p>
+              <p
+              className="spikey-3 spikey-box png-shadow  "
+              >CREEPS</p>
+              <p
+              className="spikey-4 bubble-box png-shadow  "
+              >VERY LIMITED SEARCH OPTIONS</p>
+               <p
+              className="spikey-5 spikey-box png-shadow  "
+              >FAKE ACCOUNTS</p>
+               <p
+              className="spikey-6 bubble-box png-shadow  "
+              >subscription tiers</p>
+               <p
+              className="spikey-7 spikey-box png-shadow  "
+              >DATA COLLECTION</p>
+               <p
+              className="spikey-8 spikey-box png-shadow  "
+              >BORINGNESS</p>
+            </div>
+
+            
+
+          </div>
+           {/* END No smoking images */}
+
+           {/* start explanation  */}
+           <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        marginTop: "40px",
+        marginBottom: "40px",
+      }}
+    >
+              <p
+              className="project-explain"
+              >  We are done.  No one should have to put up with these AWFUL dating apps.  
+              Thats why this small band of programmers and designers have come together to 
+              build an app that actually cares and puts the power in your hands. We have 
+              come up with a 2 way search system, that should ensure you can find the people 
+              you are looking for.  The overall plan is rather in depth because we are solving 
+              so many problems, but if you would like to see a list of our solutions click here! 
+                </p>
+            </div>
+            {/* end explanation  */}
         </div>
       </div>
 {/* end about section torn */}

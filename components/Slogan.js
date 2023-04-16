@@ -22,8 +22,11 @@ import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
 import koi from "../public/images/underwater_rocks.jpg";
 import lily from "../public/images/lilypad.png";
-import support from "../public/images/support_button.png";
+import splat from "../public/images/splat.png";
+import fingers from "../public/images/finger_blast.png";
 import About from "components/AboutUs";
+import Flower from "components/Flower";
+import FlowerFrog from "components/FlowerFrog";
 import MissionStatement from "components/MissionStatement";
 import OurTeam from "components/OurTeam";
 import SupportUs from "components/SupportUs";
@@ -67,28 +70,32 @@ const Slogan = () => {
 
       {/* Start Letters Section */}
       <div
-      className="border-yellow"
+      className="letter-box border-yellow"
         style={{
           display: "flex",
           flexDirection: "column",
           position: "absolute",
           // you can now control the spacing by changing the width prop
-          width: "78vh",
+          
           left: "50%",
           top: "16vh",
-          gap: "10%",
-          
+
           transform: 'translate(-50%, 0%)',
           zIndex: '10'
         }}
       >
+
+
         <div
         className="dot-border-yellow"
           style={{
             display: "flex",
             flexDirection: "row",
+            flexWrap: "wrap",
+           
             justifyContent: "center",
-            gap: "10%",
+            columnGap: "10%",
+            rowGap: "6vh",
           }}
         >
           {" "}
@@ -102,6 +109,8 @@ const Slogan = () => {
             <img src={UpperA.src} className=" outline large" />
             <img src={LowerN.src} className=" outline medium" />
           </div>
+
+
           <div
             style={{
               display: "flex",
@@ -113,17 +122,6 @@ const Slogan = () => {
             <img src={LowerP.src} className=" outline medium" />
             <img src={LowerP2.src} className=" outline medium" />
           </div>
-        </div>
-        <span className="break-space" ></span>
-        <div
-        className="dot-border-yellow"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            gap: "10%",
-          }}
-        >
           <div
             style={{
               display: "flex",
@@ -158,17 +156,6 @@ const Slogan = () => {
             <img src={LowerV.src} className=" outline medium" />
             <img src={UpperE.src} className=" outline small" />
           </div>
-        </div>
-        <span className="break-space" ></span>
-        <div
-        className="dot-border-yellow"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            gap: "10%",
-          }}
-        >
           <div
             style={{
               display: "flex",
@@ -197,17 +184,6 @@ const Slogan = () => {
             <img src={LowerA.src} className=" outline medium" />
             <img src={LowerD.src} className=" outline medium" />
           </div>
-        </div>
-        <span className="break-space" ></span>
-        <div
-        className="dot-border-yellow"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            gap: "10%",
-          }}
-        >
           <div
             style={{
               display: "flex",
@@ -230,33 +206,60 @@ const Slogan = () => {
             <img src={LowerN.src} className=" outline medium" />
           </div>
         </div>
+
+
+        
+  
+
+
         <div style={{ display: "flex", flexDirection: "row" }}></div>
         <div style={{ display: "flex", flexDirection: "row" }}></div>
+        <div
+          className="border-blue"
+          style={{
+            paddingTop: "30px",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            transform: 'rotate(5deg)'
+            
+          }}
+          >
+            <Image src={splat} 
+              style={
+                     {
+                      width: '50vh',
+                      height: 'auto',
+                      
+                  }} />
+                  <p
+                  style={{
+                    position: "absolute",
+                    paddingTop: "5px",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center",
+                    
+                    fontSize: "4vh",
+                    
+
+                    
+                  }}
+
+                  >SUPPORT THE <br></br> MOVEMENT!</p>
+
+          </div>
       </div>
       {/* End Letters Section */}
 
-      
-      {/* Start Red Button */}
-      {/* <div
-      className="dot-border-red"
-            style={{
-              width: 'fit-content',
-              position: "absolute",
-              left: '53%',
-              top: '75%', 
-              transform: 'translate(-50%, -50%)',
-              zIndex: '1'
+          
 
-            }}>
-            <Image src={support} 
-            style={
-              {
-                width: '200px',
-                height: '200px',
-                transform: 'rotate(-20deg)'
-              }} />
-      </div> */}
-      {/* End Red Button */}
+      
+{/*       
+      <Flower />
+      
+      <FlowerFrog /> */}
+
 
 
         {/* Start lilly pad */}
@@ -269,33 +272,49 @@ const Slogan = () => {
          // top: '53%', 
          height: "90vh",
          // transform: 'translate(-50%, -50%)',
-         // zIndex: '0'
+         
+         
 
        }}>
             <div
             className="dot-border-green"
             style={{
                width: 'fit-content',
-              // position: "absolute",
-              // left: '50%',
-              // top: '53%', 
-              // border: '4px dotted green',
-              // transform: 'translate(-50%, -50%)',
-              // zIndex: '0',
               marginLeft: "auto",
               marginRight: "auto",
-              
-
             }}>
             <Image src={lily} 
-            style={
-              {
-                width: '95vh',
-                height: 'auto',
-              }} />
+            className="lillyPad"
+           />
             </div>
         </div>
         {/* End lilly pad */}
+
+               {/* Start fingers Button */}
+       {/* <div
+      className="dot-border-red"
+            style={{
+              width: 'fit-content',
+              position: "absolute",
+              left: '100%',
+              top: '30%', 
+              transform: 'translate(-100%, -50%)',
+              
+              
+
+            }}>
+            <Image src={fingers} 
+            style={
+              {
+                width: '26vh',
+                height: 'auto',
+                transform: 'rotate(-90deg)',
+               
+                
+              }} />
+      </div> */}
+      {/* End fingers Button */}
+
       
         <About />
         <MissionStatement />
