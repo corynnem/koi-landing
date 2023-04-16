@@ -3,7 +3,7 @@ import headshot from "../public/images/testImages/headshot.jpg";
 import letterO from "../public/images/letters/o4.jpg";
 import letterU from "../public/images/letters/U5.png";
 import letterR from "../public/images/letters/r3.jpg";
-import letterT from "../public/images/letters/t6.png";
+import letterT from "../public/images/letters/T6.png";
 import letterE from "../public/images/letters/E6.png";
 import letterA from "../public/images/letters/A4.png";
 import letterM from "../public/images/letters/m5.jpg";
