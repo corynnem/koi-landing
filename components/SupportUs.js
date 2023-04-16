@@ -1,6 +1,7 @@
 import React from "react";
 import tikTok from "../public/images/tik-tok.png";
 import patreon from "../public/images/patreon.png";
+import bubbleWrap from "../public/images/bubblewrap.jpg";
 
 const SupportUs = () => {
   const iconStyles = {
@@ -16,8 +17,11 @@ const SupportUs = () => {
         flexDirection: "column",
         textAlign: "center",
         marginTop: "200px",
+        paddingTop: "50px",
+        paddingBottom: "100px",
         gap: "50px",
         marginBottom: "100px",
+        backgroundImage: ` url(${bubbleWrap.src})`,
         
       }}
     >

@@ -32,41 +32,59 @@ a {
 
 @media (max-width: 700px) {
   .small {
-    height: 20px;
-    margin-top: 8px;
+    height: 6vw;
+    min-height: 45px;
   }
   .medium {
-    height: 30px;
-    margin-top: 4px;
+    height: 6vw;
+    min-height: 45px;
   }
   .large {
-    height: 40px;
+    height: 8vw;
+    min-height: 45px;
+  }
+
+  .letter-box {
+    width: 95vw;
+  }
+
+  .lillyPad {
+    visibility: hidden;
+    width: 95vw;
+    height: auto;
+    position: absolute;
+    top: 60%;
   }
 }
 
 @media (min-width: 701px) and (max-width: 1024px) {
   .small {
     height: 5vh;
-    margin-top: 40px;
   }
   .medium {
     height: 6vh;
-    margin-top: 30px;
   }
   .large {
     height: 8vh;
     margin-top: 20px;
+  }
+
+  .letter-box {
+    width: 78vh;
+  }
+
+  .lillyPad {
+    width: 95vh;
+    height: auto;
   }
 }
 
 @media (min-width: 1025px) {
   .small {
     height: 6vh;
-    margin-top: 20px;
   }
   .medium {
     height: 7vh;
-    margin-top: 10px;
   }
   .large {
     height: 9vh;
@@ -74,6 +92,15 @@ a {
 
   .break-space {
     height: 6vh;
+  }
+
+  .letter-box {
+    width: 78vh;
+  }
+
+  .lillyPad {
+    width: 95vh;
+    height: auto;
   }
 }
 
@@ -278,4 +305,177 @@ nav {
 }
 .dot-border-purple {
   border: 4px var(--dot-border-setting) purple;
+}
+
+/* styling for we are done with section of about  */
+
+.orange-square {
+  border-radius: 25px;
+  background: #ff8800;
+  box-shadow: 0px 3px 8px black;
+  width: 20vw;
+  min-width: 250px;
+  height: auto;
+  min-height: 250px;
+  position: relative;
+}
+
+.center-xy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-x {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.relative {
+  position: relative;
+}
+
+.png-shadow {
+  -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+}
+
+.orange-square-header {
+  background: #ffea00;
+  border-radius: 15px 15px 1px 1px;
+  padding: 5px 50px;
+  box-shadow: 0px -1px 1px #ffe600;
+  top: -15px;
+}
+
+.yellow-square-footer {
+  background: #ffea00;
+  border-radius: 15px 15px 1px 1px;
+  padding: 5px 20px;
+  bottom: -16px;
+}
+
+.Yellow-border {
+  border-color: #ffe600;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 10px;
+}
+
+.orange-square-footer {
+  background: #ff8800;
+  border-radius: 15px 15px 1px 1px;
+  padding: 5px 20px;
+  bottom: -16px;
+}
+
+.orange-border {
+  border-color: #ff8800;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 10px;
+}
+
+.spikey-1 {
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translate(-50%, -50%);
+}
+
+.spikey-2 {
+  position: absolute;
+  left: 35%;
+  bottom: 15px;
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+.spikey-3 {
+  position: absolute;
+  left: 35%;
+  bottom: 60px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.spikey-4 {
+  position: absolute;
+  left: 65%;
+  bottom: 6px;
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+
+.spikey-5 {
+  position: absolute;
+  left: 15%;
+  bottom: 30px;
+  transform: translate(-50%, -50%) rotate(-80deg);
+}
+
+.spikey-6 {
+  position: absolute;
+  left: 30%;
+  bottom: 120px;
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.spikey-7 {
+  position: absolute;
+  left: 32%;
+  bottom: 160px;
+  transform: translate(-50%, -50%) rotate(-5deg);
+}
+
+.spikey-8 {
+  position: absolute;
+  left: 79%;
+  bottom: 140px;
+  transform: translate(-50%, -50%) rotate(60deg);
+}
+
+.spikey-box {
+  --mask: linear-gradient(#000 0 0) center/calc(100% - 10px) calc(100% - 10px)
+      no-repeat,
+    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) 0 0 /10px
+      5px space no-repeat,
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 0
+      100%/10px 5px space no-repeat,
+    conic-gradient(from 45deg at left, #0000, #000 1deg 89deg, #0000 90deg) 0 0 /5px
+      10px no-repeat space,
+    conic-gradient(from -135deg at right, #0000, #000 1deg 89deg, #0000 90deg)
+      100% 0/5px 10px no-repeat space;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background: #ffea00;
+  padding: 10px 15px;
+}
+
+.bubble-box {
+  --mask: linear-gradient(#000 0 0) 50% / calc(100% - 7.4px) calc(100% - 7.4px)
+      no-repeat,
+    radial-gradient(farthest-side, #000 98%, #0000) 0 0/8px 8px round;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background: #ffea00;
+  padding: 10px 15px;
+}
+
+.stubble-box {
+  --mask: radial-gradient(4px at 25% 0, #0000 98%, #000) 50% 4px/16px 51%
+      repeat-x,
+    radial-gradient(4px at 75% 50%, #000 99%, #0000 101%) top/16px 8px repeat-x,
+    radial-gradient(4px at 75% 100%, #0000 98%, #000) 50% calc(100% - 4px) /
+      16px 51% repeat-x,
+    radial-gradient(4px at 25% 50%, #000 99%, #0000 101%) bottom/16px 8px
+      repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background: #ffea00;
+  padding: 10px 15px;
+}
+
+.project-explain {
+  text-align: center;
+  width: 75%;
 }
