@@ -27,22 +27,12 @@ import About from "components/AboutUs";
 import MissionStatement from "components/MissionStatement";
 import OurTeam from "components/OurTeam";
 import SupportUs from "components/SupportUs";
+import { letterJumble } from "./custom";
 import $ from "jquery";
 
 const Slogan = () => {
   useEffect(() => {
-    const small = $(".small");
-    const medium = $(".medium");
-    const large = $(".large");
-
-    const arr = [...small, ...medium, ...large];
-
-    arr.forEach((el) => {
-      let angle =
-        Math.ceil(Math.random() * 6) * (Math.round(Math.random()) ? 1 : -1);
-
-      $(el).css("transform", "rotate(" + angle + "deg)");
-    });
+    letterJumble();
   }, []);
 
   return (
