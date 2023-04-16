@@ -28,7 +28,6 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        {/* <img src={logo.src} alt="Logo Image" /> */}
         {width > 700 && (
           <h1
             style={{
@@ -45,10 +44,7 @@ const Navbar = () => {
             <img
               src={logo.src}
               style={{
-                //   width: "80px",
                 marginBottom: "-10px",
-                //   position: "relative",
-                //   zIndex: 1000,
               }}
             />
             i
@@ -62,19 +58,19 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <a onClick={() => router.push("/home")}>Home</a>
+          <a onClick={() => router.push("/")}>Home</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>The Project</a>
+          <a onClick={() => router.push("/about")}>The Project</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>Our Team</a>
+          <a onClick={() => router.push("/team")}>Our Team</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>Support</a>
+          <a onClick={() => router.push("/support-us")}>Support Us</a>
         </li>
         <li>
-          <a onClick={() => router.push("/home")}>Contact Us</a>
+          <a onClick={() => router.push("/contact-us")}>Contact Us</a>
         </li>
       </ul>
     </nav>

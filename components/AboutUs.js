@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image'
+import Image from "next/image";
 import woodGroup from "../public/images/fig_16.png";
 import Paper from "@mui/material/Paper";
 import letterT from "../public/images/letters/t1.png";
@@ -20,23 +20,19 @@ import robots from "../public/images/robots.png";
 const About = () => {
   return (
     <div
-    className=" dot-border-yellow"
+      className=" dot-border-yellow"
       style={{
         display: "flex",
         justifyContent: "center",
         marginTop: "100px",
-        position: "relative"
-        
-        
+        position: "relative",
       }}
     >
-
-
-
-<svg width="0" height="0">
-{/* very useful : https://yqnn.github.io/svg-path-editor/ */}
-<clipPath id="path">
-    <path d="M 0 1 V 1 L 4 2 L 8 7 L 13 7 L 18 6 L 23 4 L 27 2 L 31 3 L 35 3 L 43 2 L 53 2 L 61 3 L 68 5 L 73 10 L 81 11 L 87 
+      <svg width="0" height="0">
+        {/* very useful : https://yqnn.github.io/svg-path-editor/ */}
+        <clipPath id="path">
+          <path
+            d="M 0 1 V 1 L 4 2 L 8 7 L 13 7 L 18 6 L 23 4 L 27 2 L 31 3 L 35 3 L 43 2 L 53 2 L 61 3 L 68 5 L 73 10 L 81 11 L 87 
     14 L 95 14 L 100 17 L 106 14 L 111 12 L 117 12 L 123 10 L 127 6 L 130 1 L 136 1 L 139 -4 L 144 -1 L 148 2 L 152 4 L 156 7 
     L 161 6 L 164 5 L 168 4 L 174 0 L 177 -4 L 182 -1 L 182 -1 L 187 4 L 185 9 L 185 12 L 188 13 L 191 13 L 193 11 L 194 9 
     L 195 7 L 197 4 L 203 4 L 208 4 L 210 2 L 215 0 L 221 3 L 223 5 L 225 9 L 230 10 L 235 10 L 240 7 L 247 7 L 250 2 L 256 
@@ -57,201 +53,172 @@ const About = () => {
      L 1151 5 L 1153 7 L 1156 8 L 1159 8 L 1163 9 L 1165 8 L 1171 7 L 1175 5 L 1179 4 L 1186 6 L 1190 8 L 1196 9 L 1199 8 L 1205 
      8 L 1209 10 L 1213 9 L 1217 7 L 1220 6 L 1225 6 L 1227 4 L 1231 5 L 1235 4 L 1237 2 L 1240 3 L 1244 7 L 1247 10 L 1248 12 L 
      1256 10 L 1260 11 L 1265 9 L 1271 9 L 1276 8 L 1280 6 L 1283 6 L 1286 8 L 1290 9 L 1292 7 L 1295 8 L 1298 8 L 1303 6 L 1309 
-     6 L 1312 8 L 1317 8 L 1318 11 L 3560 9 L 3436 9973 L 0 10000 Z" id="Rectangle" fill="#000000"></path>
-    </clipPath>
-</svg>
-<Image src={woodGroup} 
-            style={
-              {
-                width: '300px',
-                height: '150px',
-                position: "absolute",
-                left: "10vw",
-                top: "-130px"
-                
-                
-                
-              }} />
+     6 L 1312 8 L 1317 8 L 1318 11 L 3560 9 L 3436 9973 L 0 10000 Z"
+            id="Rectangle"
+            fill="#000000"
+          ></path>
+        </clipPath>
+      </svg>
+      <Image
+        alt="a group of wooden figurines standing behind the crinkled paper background photo"
+        src={woodGroup}
+        style={{
+          width: "300px",
+          height: "150px",
+          position: "absolute",
+          left: "10vw",
+          top: "-130px",
+        }}
+      />
 
-{/* start about section torn */}
-      <div
-      className="torn-paper-shadow"
-      >
+      {/* start about section torn */}
+      <div className="torn-paper-shadow">
         <div
-        className="torn-top "
+          className="torn-top "
           style={{
             display: "flex",
             justifyContent: "center",
             width: "80vw",
             flexDirection: "column",
             backgroundImage: ` url(${paperBackdrop.src})`,
-            padding: "50px 10px 10px 10px"
-            
+            padding: "50px 10px 10px 10px",
           }}
         >
-          
           {/* start about header  */}
-         
-          <div 
-          className="border-red"
-          >
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    flexWrap: "wrap",
-                    gap: "10px",
-                    paddingBottom: "20px",
-                    justifyContent: "center",
-                  }}
-                >
-                  <div>
-                  <img src={letterT.src} className=" outline large" />
-                  <img src={letterH.src} className=" outline medium" />
-                  <img src={letterE.src} className=" outline medium" />
-                  </div>
 
-                  <div>
-                  <img src={letterP.src} className=" outline medium" />
-                  <img src={letterR.src} className=" outline medium" />
-                  <img src={letterO.src} className=" outline medium" />
-                  <img src={letterJ.src} className=" outline medium" />
-                  <img src={letterE2.src} className=" outline medium" />
-                  <img src={letterC.src} className=" outline medium" />
-                  <img src={letterT2.src} className=" outline medium" />
-                  </div>
+          <div className="border-red">
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                flexWrap: "wrap",
+                gap: "10px",
+                paddingBottom: "20px",
+                justifyContent: "center",
+              }}
+            >
+              <div>
+                <img src={letterT.src} className=" outline large" />
+                <img src={letterH.src} className=" outline medium" />
+                <img src={letterE.src} className=" outline medium" />
+              </div>
 
-                </div>
+              <div>
+                <img src={letterP.src} className=" outline medium" />
+                <img src={letterR.src} className=" outline medium" />
+                <img src={letterO.src} className=" outline medium" />
+                <img src={letterJ.src} className=" outline medium" />
+                <img src={letterE2.src} className=" outline medium" />
+                <img src={letterC.src} className=" outline medium" />
+                <img src={letterT2.src} className=" outline medium" />
+              </div>
+            </div>
           </div>
-          
+
           {/* END about header  */}
-          
+
           <p>
             WE ARE MAKING A DATING APP THAT ACTUALLY WORKS!!
             <br />
             <br />
-            We are doing away with: 
+            We are doing away with:
           </p>
           {/* Start No smoking images */}
           <div
-          className="border-purple"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            flexDirection: "row",
-            flexWrap: "wrap",
-            gap: "50px 20px",
-            paddingTop: "35px",
-          }}
+            className="border-purple"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              gap: "50px 20px",
+              paddingTop: "35px",
+            }}
           >
-            <div
-            className="orange-square"
-            >
-            <Image src={swiping} 
-            className="png-shadow center-xy"
-            style={
-              {
-                width: '90%',
-                height: "auto",
-              }} />
-              <p
-              className="center-x orange-square-header"
-              >SWIPING</p>
+            <div className="orange-square">
+              <Image
+                alt="swiping on dating apps"
+                src={swiping}
+                className="png-shadow center-xy"
+                style={{
+                  width: "90%",
+                  height: "auto",
+                }}
+              />
+              <p className="center-x orange-square-header">SWIPING</p>
             </div>
 
-            <div
-            className="orange-square"
-            >
-            <Image src={pay} 
-            className=" png-shadow center-xy"
-            style={
-              {
-                width: '90%',
-                height: 'auto',
-                
-              }} />
-              <p
-              className="center-x orange-square-header"
-              >PAYING</p>
+            <div className="orange-square">
+              <Image
+                alt="paying for love"
+                src={pay}
+                className=" png-shadow center-xy"
+                style={{
+                  width: "90%",
+                  height: "auto",
+                }}
+              />
+              <p className="center-x orange-square-header">PAYING</p>
             </div>
 
-            <div
-            className="orange-square"
-            >
-            <Image src={robots} 
-            className=" png-shadow center-xy"
-            style={
-              {
-                width: '90%',
-                height: 'auto',
-                
-              }} />
-              <p
-              className="center-x orange-square-header"
-              >BOTS</p>
-            </div>
-            
-            <div
-            className="orange-square"
-            >
-            
-              <p
-              className="center-x orange-square-header"
-              >Also</p>
-              <p
-              className="spikey-1 spikey-box png-shadow  "
-              >CATFISH</p>
-              <p
-              className="spikey-2 stubble-box png-shadow  "
-              >LIES</p>
-              <p
-              className="spikey-3 spikey-box png-shadow  "
-              >CREEPS</p>
-              <p
-              className="spikey-4 bubble-box png-shadow  "
-              >VERY LIMITED SEARCH OPTIONS</p>
-               <p
-              className="spikey-5 spikey-box png-shadow  "
-              >FAKE ACCOUNTS</p>
-               <p
-              className="spikey-6 bubble-box png-shadow  "
-              >subscription tiers</p>
-               <p
-              className="spikey-7 spikey-box png-shadow  "
-              >DATA COLLECTION</p>
-               <p
-              className="spikey-8 spikey-box png-shadow  "
-              >BORINGNESS</p>
+            <div className="orange-square">
+              <Image
+                alt="robots"
+                src={robots}
+                className=" png-shadow center-xy"
+                style={{
+                  width: "90%",
+                  height: "auto",
+                }}
+              />
+              <p className="center-x orange-square-header">BOTS</p>
             </div>
 
-            
-
+            <div className="orange-square">
+              <p className="center-x orange-square-header">Also</p>
+              <p className="spikey-1 spikey-box png-shadow  ">CATFISH</p>
+              <p className="spikey-2 stubble-box png-shadow  ">LIES</p>
+              <p className="spikey-3 spikey-box png-shadow  ">CREEPS</p>
+              <p className="spikey-4 bubble-box png-shadow  ">
+                VERY LIMITED SEARCH OPTIONS
+              </p>
+              <p className="spikey-5 spikey-box png-shadow  ">FAKE ACCOUNTS</p>
+              <p className="spikey-6 bubble-box png-shadow  ">
+                subscription tiers
+              </p>
+              <p className="spikey-7 spikey-box png-shadow  ">
+                DATA COLLECTION
+              </p>
+              <p className="spikey-8 spikey-box png-shadow  ">BORINGNESS</p>
+            </div>
           </div>
-           {/* END No smoking images */}
+          {/* END No smoking images */}
 
-           {/* start explanation  */}
-           <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        marginTop: "40px",
-        marginBottom: "40px",
-      }}
-    >
-              <p
-              className="project-explain"
-              >  We are done.  No one should have to put up with these AWFUL dating apps.  
-              Thats why this small band of programmers and designers have come together to 
-              build an app that actually cares and puts the power in your hands. We have 
-              come up with a 2 way search system, that should ensure you can find the people 
-              you are looking for.  The overall plan is rather in depth because we are solving 
-              so many problems, but if you would like to see a list of our solutions click here! 
-                </p>
-            </div>
-            {/* end explanation  */}
+          {/* start explanation  */}
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "40px",
+              marginBottom: "40px",
+            }}
+          >
+            <p className="project-explain">
+              {" "}
+              We are done. No one should have to put up with these AWFUL dating
+              apps. Thats why this small band of programmers and designers have
+              come together to build an app that actually cares and puts the
+              power in your hands. We have come up with a 2 way search system,
+              that should ensure you can find the people you are looking for.
+              The overall plan is rather in depth because we are solving so many
+              problems, but if you would like to see a list of our solutions
+              click here!
+            </p>
+          </div>
+          {/* end explanation  */}
         </div>
       </div>
-{/* end about section torn */}
+      {/* end about section torn */}
     </div>
   );
 };

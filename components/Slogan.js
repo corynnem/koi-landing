@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Image from 'next/image'
+import Image from "next/image";
 import LowerA from "../public/images/letters/LowerA.png";
 import LowerN from "../public/images/letters/LowerN.png";
 import UpperA from "../public/images/letters/UpperA.png";
@@ -39,7 +39,6 @@ const Slogan = () => {
   }, []);
 
   return (
-    
     <div
       className="ripples border-purple"
       style={{
@@ -49,286 +48,226 @@ const Slogan = () => {
         minWidth: "354px",
         position: "relative",
         backgroundImage: ` url(${koi.src})`,
-        
-        
-        
       }}
     >
-
-
-
-{/* Start collage Section */}
+      {/* Start collage Section */}
       <div
-      className="dot-border-blue"
-      style={{
-        position: "relative",
-        top: "0",
-        width: "100vw",
-        height: "100vh",
-        overflowY: "scroll"
-      }}>
-
-      {/* Start Letters Section */}
-      <div
-      className="letter-box border-yellow"
+        className="dot-border-blue"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          position: "absolute",
-          // you can now control the spacing by changing the width prop
-          
-          left: "50%",
-          top: "16vh",
-
-          transform: 'translate(-50%, 0%)',
-          zIndex: '10'
+          position: "relative",
+          top: "0",
+          width: "100vw",
+          height: "100vh",
+          overflowY: "scroll",
         }}
       >
-
-
+        {/* Start Letters Section */}
         <div
-        className="dot-border-yellow"
+          className="letter-box border-yellow"
           style={{
             display: "flex",
-            flexDirection: "row",
-            flexWrap: "wrap",
-           
-            justifyContent: "center",
-            columnGap: "10%",
-            rowGap: "6vh",
+            flexDirection: "column",
+            position: "absolute",
+            // you can now control the spacing by changing the width prop
+
+            left: "50%",
+            top: "16vh",
+
+            transform: "translate(-50%, 0%)",
+            zIndex: "10",
           }}
         >
-          {" "}
           <div
+            className="dot-border-yellow"
             style={{
               display: "flex",
               flexDirection: "row",
-              gap: "10px",
+              flexWrap: "wrap",
+
+              justifyContent: "center",
+              columnGap: "10%",
+              rowGap: "6vh",
             }}
           >
-            <img src={UpperA.src} className=" outline large" />
-            <img src={LowerN.src} className=" outline medium" />
+            {" "}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperA.src} className=" outline large" />
+              <img src={LowerN.src} className=" outline medium" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={LowerA.src} className=" outline medium" />
+              <img src={LowerP.src} className=" outline medium" />
+              <img src={LowerP2.src} className=" outline medium" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperT.src} className=" outline medium" />
+              <img src={LowerO.src} className=" outline small" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperF.src} className=" outline medium" />
+              <img src={LowerI.src} className=" outline medium" />
+              <img src={LowerN.src} className=" outline medium" />
+              <img src={LowerD.src} className=" outline medium" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperL.src} className=" outline medium" />
+              <img src={LowerO.src} className=" outline small" />
+              <img src={LowerV.src} className=" outline medium" />
+              <img src={UpperE.src} className=" outline small" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperS.src} className=" outline medium" />
+              <img src={LowerH.src} className=" outline medium" />
+              <img src={LowerO.src} className=" outline small" />
+              <img src={UpperU.src} className=" outline medium" />
+              <img src={LowerL.src} className=" outline medium" />
+              <img src={LowerD.src} className=" outline medium" />
+              <img src={LowerN.src} className=" outline medium" />
+              <img src={LowerT.src} className=" outline medium" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperL.src} className=" outline medium" />
+              <img src={UpperE.src} className=" outline small" />
+              <img src={LowerA.src} className=" outline medium" />
+              <img src={LowerD.src} className=" outline medium" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperY.src} className=" outline medium" />
+              <img src={UpperO.src} className=" outline medium" />
+              <img src={UpperU.src} className=" outline medium" />
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "10px",
+              }}
+            >
+              <img src={UpperO.src} className=" outline medium" />
+              <img src={LowerN.src} className=" outline medium" />
+            </div>
           </div>
 
+          <div style={{ display: "flex", flexDirection: "row" }}></div>
+          <div style={{ display: "flex", flexDirection: "row" }}></div>
+          <div
+            className="border-blue"
+            style={{
+              paddingTop: "30px",
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              transform: "rotate(5deg)",
+            }}
+          >
+            <Image
+              src={splat}
+              style={{
+                width: "50vh",
+                height: "auto",
+              }}
+            />
+            <p
+              style={{
+                position: "absolute",
+                paddingTop: "5px",
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center",
 
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={LowerA.src} className=" outline medium" />
-            <img src={LowerP.src} className=" outline medium" />
-            <img src={LowerP2.src} className=" outline medium" />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={UpperT.src} className=" outline medium" />
-            <img src={LowerO.src} className=" outline small" />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={UpperF.src} className=" outline medium" />
-            <img src={LowerI.src} className=" outline medium" />
-            <img src={LowerN.src} className=" outline medium" />
-            <img src={LowerD.src} className=" outline medium" />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={UpperL.src} className=" outline medium" />
-            <img src={LowerO.src} className=" outline small" />
-            <img src={LowerV.src} className=" outline medium" />
-            <img src={UpperE.src} className=" outline small" />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={UpperS.src} className=" outline medium" />
-            <img src={LowerH.src} className=" outline medium" />
-            <img src={LowerO.src} className=" outline small" />
-            <img src={UpperU.src} className=" outline medium" />
-            <img src={LowerL.src} className=" outline medium" />
-            <img src={LowerD.src} className=" outline medium" />
-            <img src={LowerN.src} className=" outline medium" />
-            <img src={LowerT.src} className=" outline medium" />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={UpperL.src} className=" outline medium" />
-            <img src={UpperE.src} className=" outline small" />
-            <img src={LowerA.src} className=" outline medium" />
-            <img src={LowerD.src} className=" outline medium" />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={UpperY.src} className=" outline medium" />
-            <img src={UpperO.src} className=" outline medium" />
-            <img src={UpperU.src} className=" outline medium" />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              gap: "10px",
-            }}
-          >
-            <img src={UpperO.src} className=" outline medium" />
-            <img src={LowerN.src} className=" outline medium" />
+                fontSize: "4vh",
+              }}
+            >
+              SUPPORT THE <br></br> MOVEMENT!
+            </p>
           </div>
         </div>
+        {/* End Letters Section */}
 
-
-        
-  
-
-
-        <div style={{ display: "flex", flexDirection: "row" }}></div>
-        <div style={{ display: "flex", flexDirection: "row" }}></div>
-        <div
-          className="border-blue"
-          style={{
-            paddingTop: "30px",
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center",
-            transform: 'rotate(5deg)'
-            
-          }}
-          >
-            <Image src={splat} 
-              style={
-                     {
-                      width: '50vh',
-                      height: 'auto',
-                      
-                  }} />
-                  <p
-                  style={{
-                    position: "absolute",
-                    paddingTop: "5px",
-                    display: "flex",
-                    flexDirection: "row",
-                    justifyContent: "center",
-                    
-                    fontSize: "4vh",
-                    
-
-                    
-                  }}
-
-                  >SUPPORT THE <br></br> MOVEMENT!</p>
-
-          </div>
-      </div>
-      {/* End Letters Section */}
-
-          
-
-      
-{/*       
+        {/*       
       <Flower />
       
       <FlowerFrog /> */}
 
-
-
         {/* Start lilly pad */}
         <div
-        className="border-green"
-         style={{
-         marginTop: "10vh",
-         // position: "absolute",
-         // left: '50%',
-         // top: '53%', 
-         height: "90vh",
-         // transform: 'translate(-50%, -50%)',
-         
-         
-
-       }}>
-            <div
+          className="border-green"
+          style={{
+            marginTop: "10vh",
+            // position: "absolute",
+            // left: '50%',
+            // top: '53%',
+            height: "90vh",
+            // transform: 'translate(-50%, -50%)',
+          }}
+        >
+          <div
             className="dot-border-green"
             style={{
-               width: 'fit-content',
+              width: "fit-content",
               marginLeft: "auto",
               marginRight: "auto",
-            }}>
-            <Image src={lily} 
-            className="lillyPad"
-           />
-            </div>
+            }}
+          >
+            <Image src={lily} className="lillyPad" />
+          </div>
         </div>
-        {/* End lilly pad */}
 
-               {/* Start fingers Button */}
-       {/* <div
-      className="dot-border-red"
-            style={{
-              width: 'fit-content',
-              position: "absolute",
-              left: '100%',
-              top: '30%', 
-              transform: 'translate(-100%, -50%)',
-              
-              
-
-            }}>
-            <Image src={fingers} 
-            style={
-              {
-                width: '26vh',
-                height: 'auto',
-                transform: 'rotate(-90deg)',
-               
-                
-              }} />
-      </div> */}
-      {/* End fingers Button */}
-
-      
         <About />
         <MissionStatement />
         <OurTeam />
         <SupportUs />
       </div>
-{/* End collage Section */}
-
-        
-        
-        
-        
-</div>
-
+      {/* End collage Section */}
+    </div>
   );
 };
 
