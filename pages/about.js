@@ -54,8 +54,6 @@ const AboutUsPage = () => {
         </div>
         <p
           style={{
-            paddingLeft: "10%",
-            paddingRight: "10%",
             marginTop: "-40px",
           }}
         >
