@@ -52,7 +52,7 @@ const AboutUsPage = () => {
             </div>
           </div>
         </div>
-        <p
+        <div
           style={{
             marginTop: "-40px",
           }}
@@ -66,9 +66,9 @@ const AboutUsPage = () => {
               height: "auto",
             }}
           />
-          <div
+          <p
+            className="abt-paper"
             style={{
-              backgroundImage: `url(${paperBackdrop.src})`,
               padding: "50px",
               marginTop: "-110px",
             }}
@@ -101,8 +101,8 @@ const AboutUsPage = () => {
             happy relationships. So, what are you waiting for? Download our
             dating app today and start your journey to finding love. We promise
             it'll be an experience like no other!
-          </div>
-        </p>
+          </p>
+        </div>
         <SupportUs />
       </div>
     </div>
