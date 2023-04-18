@@ -209,6 +209,7 @@ const Slogan = () => {
             }}
           >
             <Image
+              alt="splattered background"
               src={splat}
               style={{
                 width: "50vh",
@@ -257,7 +258,7 @@ const Slogan = () => {
               marginRight: "auto",
             }}
           >
-            <Image src={lily} className="lillyPad" />
+            <Image src={lily} className="lillyPad" alt="lilly pad" />
           </div>
         </div>
 
