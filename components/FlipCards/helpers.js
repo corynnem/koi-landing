@@ -254,10 +254,10 @@ export const cards = [
           since she was little, she wanted to create art and avoid people. She
           lived in NYC for 8 years working as a bartender surrounded by people,
           and rarely got to create anything outside of cocktails. She left that
-          life 3 years ago, and now she's a self-taught 3D-modeling artist who
-          runs a 3D printing business out of Ben Petsel&apos;s (mentioned above)
-          childhood bedroom and life is good. Shanna also aspires to pet every
-          single animal that exists— even the scary ones.
+          life 3 years ago, and now she&apos;s a self-taught 3D-modeling artist
+          who runs a 3D printing business out of Ben Petsel&apos;s (mentioned
+          above) childhood bedroom and life is good. Shanna also aspires to pet
+          every single animal that exists— even the scary ones.
         </p>
         <h3 className="center-x orange-square-footer">Shanna</h3>
       </div>
