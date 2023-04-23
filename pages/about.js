@@ -10,8 +10,8 @@ import React, { useEffect } from "react";
 // import LetterS from "../public/images/letters/UpperS.png";
 // import paperBackdrop from "../public/images/paper_backdrop.jpg";
 import { letterJumble } from "../components/custom";
-// import SupportUs from "components/SupportUs";
-// import woodenFigure from "../public/images/fig_1.png";
+import SupportUs from "components/SupportUs";
+import woodenFigure from "../public/images/fig_1.png";
 
 const AboutUsPage = () => {
   useEffect(() => {
