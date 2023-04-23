@@ -9,14 +9,14 @@ import React, { useEffect } from "react";
 // import LetterU2 from "../public/images/letters/U2.png";
 // import LetterS from "../public/images/letters/UpperS.png";
 // import paperBackdrop from "../public/images/paper_backdrop.jpg";
-// import { letterJumble } from "../components/custom";
+import { letterJumble } from "../components/custom";
 // import SupportUs from "components/SupportUs";
 // import woodenFigure from "../public/images/fig_1.png";
 
 const AboutUsPage = () => {
-  // useEffect(() => {
-  //   letterJumble();
-  // }, []);
+  useEffect(() => {
+    letterJumble();
+  }, []);
   return (
     <div>
       {/* <Navbar /> */}
