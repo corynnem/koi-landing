@@ -38,16 +38,44 @@ const AboutUsPage = () => {
             }}
           >
             <div>
-              <img src={LetterA.src} className=" outline large" />
-              <img src={LetterB.src} className=" outline medium" />
-              <img src={LetterO.src} className=" outline medium" />
-              <img src={LetterU.src} className=" outline medium" />
-              <img src={LetterT.src} className=" outline medium" />
+              <img
+                src={LetterA.src}
+                className=" outline large"
+                alt="Letter A"
+              />
+              <img
+                src={LetterB.src}
+                className=" outline medium"
+                alt="Letter B"
+              />
+              <img
+                src={LetterO.src}
+                className=" outline medium"
+                alt="Letter O"
+              />
+              <img
+                src={LetterU.src}
+                className=" outline medium"
+                alt="Letter U"
+              />
+              <img
+                src={LetterT.src}
+                className=" outline medium"
+                alt="Letter T"
+              />
             </div>
 
             <div>
-              <img src={LetterU2.src} className=" outline medium" />
-              <img src={LetterS.src} className=" outline medium" />
+              <img
+                src={LetterU2.src}
+                className=" outline medium"
+                alt="Letter U"
+              />
+              <img
+                src={LetterS.src}
+                className=" outline medium"
+                alt="Letter S"
+              />
             </div>
           </div>
         </div>
@@ -58,6 +86,7 @@ const AboutUsPage = () => {
         >
           <br />
           <img
+            alt="wooden figure sitting on the text"
             src={woodenFigure.src}
             style={{
               marginLeft: "-50px",

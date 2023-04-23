@@ -209,11 +209,7 @@ const Slogan = () => {
             }}
           >
             <Image
-<<<<<<< HEAD
               alt="splattered background"
-=======
-              alt="splat background"
->>>>>>> f95872cb9e0f200442a9c16ba9ae68f70adfd1d7
               src={splat}
               style={{
                 width: "50vh",
