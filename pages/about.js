@@ -19,7 +19,7 @@ const AboutUsPage = () => {
   return (
     <div>
       <Navbar />
-      <div
+      {/* <div
         style={{
           position: "absolute",
           marginTop: "100px",
@@ -103,7 +103,7 @@ const AboutUsPage = () => {
           </p>
         </div>
         <SupportUs />
-      </div>
+      </div> */}
     </div>
   );
 };
