@@ -20,7 +20,7 @@ const AboutUsPage = () => {
   return (
     <div>
       <Navbar />
-      {/* <div
+      <div
         style={{
           position: "absolute",
           marginTop: "100px",
@@ -28,7 +28,7 @@ const AboutUsPage = () => {
           paddingRight: "5%",
         }}
       >
-        <div>
+        {/* <div>
           <div
             style={{
               display: "flex",
@@ -51,8 +51,8 @@ const AboutUsPage = () => {
               <img src={LetterS.src} className=" outline medium" />
             </div>
           </div>
-        </div>
-        <div
+        </div> */}
+        {/* <div
           style={{
             marginTop: "-40px",
           }}
@@ -102,9 +102,9 @@ const AboutUsPage = () => {
             dating app today and start your journey to finding love. We promise
             it'll be an experience like no other!
           </p>
-        </div>
+        </div> */}
         <SupportUs />
-      </div> */}
+      </div>
     </div>
   );
 };
