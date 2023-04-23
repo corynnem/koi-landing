@@ -23,15 +23,11 @@ import UpperY from "../public/images/letters/UpperY.png";
 import koi from "../public/images/underwater_rocks.jpg";
 import lily from "../public/images/lilypad.png";
 import splat from "../public/images/splat.png";
-import fingers from "../public/images/finger_blast.png";
 import About from "components/AboutUs";
-import Flower from "components/Flower";
-import FlowerFrog from "components/FlowerFrog";
 import MissionStatement from "components/MissionStatement";
 import OurTeam from "components/OurTeam";
 import SupportUs from "components/SupportUs";
 import { letterJumble } from "./custom";
-import $ from "jquery";
 
 const Slogan = () => {
   useEffect(() => {
@@ -209,7 +205,7 @@ const Slogan = () => {
             }}
           >
             <Image
-              alt="splat background"
+              alt="splattered background"
               src={splat}
               style={{
                 width: "50vh",
@@ -243,11 +239,7 @@ const Slogan = () => {
           className="border-green"
           style={{
             marginTop: "10vh",
-            // position: "absolute",
-            // left: '50%',
-            // top: '53%',
             height: "90vh",
-            // transform: 'translate(-50%, -50%)',
           }}
         >
           <div

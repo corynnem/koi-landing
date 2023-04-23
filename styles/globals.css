@@ -157,13 +157,14 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .nav-links li a {
   text-decoration: none;
   margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-  color: #61dafb;
+  color: #ff8800;
 }
 .nav-links li {
   position: relative;
@@ -351,6 +352,7 @@ nav {
 }
 
 .yellow-square-footer {
+  color: #ff8800;
   background: #ffea00;
   border-radius: 15px 15px 1px 1px;
   padding: 5px 20px;
@@ -365,6 +367,7 @@ nav {
 }
 
 .orange-square-footer {
+  color: #ffea00;
   background: #ff8800;
   border-radius: 15px 15px 1px 1px;
   padding: 5px 20px;
@@ -478,4 +481,8 @@ nav {
 .project-explain {
   text-align: center;
   width: 75%;
+}
+
+.abt-paper {
+  background-image: url("../public/images/paper_backdrop.jpg");
 }
