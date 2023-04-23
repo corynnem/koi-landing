@@ -16,7 +16,7 @@ const OurTeamPage = () => {
   }, []);
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
 
       <div
         style={{
@@ -62,7 +62,7 @@ const OurTeamPage = () => {
 
           <FlipCards />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
