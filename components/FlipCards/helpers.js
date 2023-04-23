@@ -29,9 +29,9 @@ export const cards = [
         <p style={{ padding: "20px", textAlign: "center" }}>
           Meet Jane Smith, a freelance writer based in NYC with a journalism
           degree. She creates engaging content for a variety of clients and
-          enjoys exploring the city's arts scene and volunteering at a local
-          literacy program. Her goal is to continue to grow as a writer and
-          bring unique voices to the world.
+          enjoys exploring the city&apos;s arts scene and volunteering at a
+          local literacy program. Her goal is to continue to grow as a writer
+          and bring unique voices to the world.
         </p>
         <h3 className="center-x orange-square-footer">Ben</h3>
       </div>
@@ -56,9 +56,9 @@ export const cards = [
         <p style={{ padding: "20px", textAlign: "center" }}>
           Meet Jane Smith, a freelance writer based in NYC with a journalism
           degree. She creates engaging content for a variety of clients and
-          enjoys exploring the city's arts scene and volunteering at a local
-          literacy program. Her goal is to continue to grow as a writer and
-          bring unique voices to the world.
+          enjoys exploring the city&apos;s arts scene and volunteering at a
+          local literacy program. Her goal is to continue to grow as a writer
+          and bring unique voices to the world.
         </p>
         <h3 className="center-x yellow-square-footer">Corynne</h3>
       </div>
@@ -83,9 +83,9 @@ export const cards = [
         <p style={{ padding: "20px", textAlign: "center" }}>
           Meet Jane Smith, a freelance writer based in NYC with a journalism
           degree. She creates engaging content for a variety of clients and
-          enjoys exploring the city's arts scene and volunteering at a local
-          literacy program. Her goal is to continue to grow as a writer and
-          bring unique voices to the world.
+          enjoys exploring the city&apos;s arts scene and volunteering at a
+          local literacy program. Her goal is to continue to grow as a writer
+          and bring unique voices to the world.
         </p>
         <h3 className="center-x orange-square-footer">Grace</h3>
       </div>
@@ -110,9 +110,9 @@ export const cards = [
         <p style={{ padding: "20px", textAlign: "center" }}>
           Meet Jane Smith, a freelance writer based in NYC with a journalism
           degree. She creates engaging content for a variety of clients and
-          enjoys exploring the city's arts scene and volunteering at a local
-          literacy program. Her goal is to continue to grow as a writer and
-          bring unique voices to the world.
+          enjoys exploring the city&apos;s arts scene and volunteering at a
+          local literacy program. Her goal is to continue to grow as a writer
+          and bring unique voices to the world.
         </p>
         <h3 className="center-x yellow-square-footer">Wayne</h3>
       </div>
@@ -137,9 +137,9 @@ export const cards = [
         <p style={{ padding: "20px", textAlign: "center" }}>
           Meet Jane Smith, a freelance writer based in NYC with a journalism
           degree. She creates engaging content for a variety of clients and
-          enjoys exploring the city's arts scene and volunteering at a local
-          literacy program. Her goal is to continue to grow as a writer and
-          bring unique voices to the world.
+          enjoys exploring the city&apos;s arts scene and volunteering at a
+          local literacy program. Her goal is to continue to grow as a writer
+          and bring unique voices to the world.
         </p>
         <h3 className="center-x orange-square-footer">Lauren</h3>
       </div>
@@ -164,9 +164,9 @@ export const cards = [
         <p style={{ padding: "20px", textAlign: "center" }}>
           Meet Jane Smith, a freelance writer based in NYC with a journalism
           degree. She creates engaging content for a variety of clients and
-          enjoys exploring the city's arts scene and volunteering at a local
-          literacy program. Her goal is to continue to grow as a writer and
-          bring unique voices to the world.
+          enjoys exploring the city&apos;s arts scene and volunteering at a
+          local literacy program. Her goal is to continue to grow as a writer
+          and bring unique voices to the world.
         </p>
         <h3 className="center-x yellow-square-footer">Trey</h3>
       </div>
@@ -191,9 +191,9 @@ export const cards = [
         <p style={{ padding: "20px", textAlign: "center" }}>
           Meet Jane Smith, a freelance writer based in NYC with a journalism
           degree. She creates engaging content for a variety of clients and
-          enjoys exploring the city's arts scene and volunteering at a local
-          literacy program. Her goal is to continue to grow as a writer and
-          bring unique voices to the world.
+          enjoys exploring the city&apos;s arts scene and volunteering at a
+          local literacy program. Her goal is to continue to grow as a writer
+          and bring unique voices to the world.
         </p>
         <h3 className="center-x orange-square-footer">Shanna</h3>
       </div>
