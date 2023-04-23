@@ -67,11 +67,11 @@ const AboutUsPage = () => {
             }}
           />
           <p
-            style={{
-              backgroundImage: `url(${paperBackdrop.src})`,
-              padding: "50px",
-              marginTop: "-110px",
-            }}
+          // style={{
+          //   backgroundImage: `url(${paperBackdrop.src})`,
+          //   padding: "50px",
+          //   marginTop: "-110px",
+          // }}
           >
             Looking for love? Tired of swiping through impersonal profiles on
             corporate-owned dating apps? Look no further! Koi is all about
