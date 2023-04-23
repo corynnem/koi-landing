@@ -19,7 +19,7 @@ const AboutUsPage = () => {
   }, []);
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <div
         style={{
           position: "absolute",
