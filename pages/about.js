@@ -66,9 +66,9 @@ const AboutUsPage = () => {
               height: "auto",
             }}
           />
-          <p
+          {/* <p
             style={{
-              // backgroundImage: `url(${paperBackdrop.src})`,
+              backgroundImage: `url(${paperBackdrop.src})`,
               padding: "50px",
               marginTop: "-110px",
             }}
@@ -101,7 +101,7 @@ const AboutUsPage = () => {
             happy relationships. So, what are you waiting for? Download our
             dating app today and start your journey to finding love. We promise
             it'll be an experience like no other!
-          </p>
+          </p> */}
         </div>
         <SupportUs />
       </div>
