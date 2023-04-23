@@ -38,7 +38,7 @@ const AboutUsPage = () => {
               justifyContent: "center",
             }}
           >
-            {/* <div>
+            <div>
               <img src={LetterA.src} className=" outline large" />
               <img src={LetterB.src} className=" outline medium" />
               <img src={LetterO.src} className=" outline medium" />
@@ -49,7 +49,7 @@ const AboutUsPage = () => {
             <div>
               <img src={LetterU2.src} className=" outline medium" />
               <img src={LetterS.src} className=" outline medium" />
-            </div> */}
+            </div>
           </div>
         </div>
         {/* <div
