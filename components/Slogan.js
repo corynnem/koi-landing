@@ -262,11 +262,7 @@ const Slogan = () => {
               marginRight: "auto",
             }}
           >
-<<<<<<< HEAD
-            <Image src={lily} className="lillyPad" alt="lilly pad" />
-=======
             <Image src={lily} className="lillyPad" alt="lilly pad" priority />
->>>>>>> f95872cb9e0f200442a9c16ba9ae68f70adfd1d7
           </div>
         </div>
 
