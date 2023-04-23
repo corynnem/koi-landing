@@ -88,12 +88,11 @@ const AboutUsPage = () => {
             {/* <b> everyone</b>. */}
             {/* <br />
             <br /> */}
-            We also believe that dating should be fun! Tha&apos;'s why
-            we&apos;ve designed Koi to be engaging, interactive, and exciting.
-            Our app is not just another corporate-owned dating app that feels
-            mechanical, disconnected, and impersonal. We&apos;re a
-            community-driven platform that values human connection and real
-            relationships.
+            We also believe that dating should be fun! Tha&apos;s why we&apos;ve
+            designed Koi to be engaging, interactive, and exciting. Our app is
+            not just another corporate-owned dating app that feels mechanical,
+            disconnected, and impersonal. We&apos;re a community-driven platform
+            that values human connection and real relationships.
             {/* <br />
             <br /> */}
             Most importantly, we will not sell out to large corporations. We
