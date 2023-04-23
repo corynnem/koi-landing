@@ -52,7 +52,7 @@ const AboutUsPage = () => {
             </div>
           </div>
         </div>
-        {/* <div
+        <div
           style={{
             marginTop: "-40px",
           }}
@@ -102,7 +102,7 @@ const AboutUsPage = () => {
             dating app today and start your journey to finding love. We promise
             it'll be an experience like no other!
           </p>
-        </div> */}
+        </div>
         <SupportUs />
       </div>
     </div>
