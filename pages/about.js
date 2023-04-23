@@ -11,23 +11,38 @@ import LetterS from "../public/images/letters/UpperS.png";
 import { letterJumble } from "../components/custom";
 import SupportUs from "components/SupportUs";
 import woodenFigure from "../public/images/fig_1.png";
+import dynamic from "next/dynamic";
+import koi from "../public/images/underwater_rocks.jpg";
 
 const AboutUsPage = () => {
-  useEffect(() => {
-    letterJumble();
-  }, []);
   return (
-    <div>
+    <div
+      className="ripples border-red"
+      style={{
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        minWidth: "354px",
+        position: "relative",
+        backgroundImage: ` url(${koi.src})`,
+        height: "100%",
+        width: "100%",
+      }}
+    >
       <Navbar />
       <div
         style={{
           position: "absolute",
-          marginTop: "100px",
+
           paddingLeft: "5%",
           paddingRight: "5%",
+          position: "relative",
+
+          width: "100vw",
+          height: "100vh",
+          overflowY: "scroll",
         }}
       >
-        <div>
+        <div style={{ marginTop: "100px" }}>
           <div
             style={{
               display: "flex",

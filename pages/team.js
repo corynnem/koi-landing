@@ -9,13 +9,26 @@ import letterM from "../public/images/letters/m5.jpg";
 import Navbar from "components/Navbar";
 import FlipCards from "components/FlipCards/FlipCards";
 import { letterJumble } from "components/custom";
+import SupportUs from "components/SupportUs";
+import koi from "../public/images/underwater_rocks.jpg";
 
 const OurTeamPage = () => {
   useEffect(() => {
     letterJumble();
   }, []);
   return (
-    <div>
+    <div
+      style={{
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        minWidth: "354px",
+        position: "relative",
+        backgroundImage: ` url(${koi.src})`,
+        width: "100vw",
+        height: "100vh",
+        overflowY: "scroll",
+      }}
+    >
       <Navbar />
 
       <div
@@ -63,6 +76,7 @@ const OurTeamPage = () => {
           <FlipCards />
         </div>
       </div>
+      <SupportUs />
     </div>
   );
 };
