@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 
-// import Navbar from "components/Navbar";
-// import LetterA from "../public/images/letters/A1.png";
-// import LetterB from "../public/images/letters/b1.jpg";
-// import LetterO from "../public/images/letters/o1.jpg";
-// import LetterU from "../public/images/letters/U1.png";
-// import LetterT from "../public/images/letters/T1.png";
-// import LetterU2 from "../public/images/letters/U2.png";
-// import LetterS from "../public/images/letters/UpperS.png";
-// import paperBackdrop from "../public/images/paper_backdrop.jpg";
+import Navbar from "components/Navbar";
+import LetterA from "../public/images/letters/A1.png";
+import LetterB from "../public/images/letters/b1.jpg";
+import LetterO from "../public/images/letters/o1.jpg";
+import LetterU from "../public/images/letters/U1.png";
+import LetterT from "../public/images/letters/T1.png";
+import LetterU2 from "../public/images/letters/U2.png";
+import LetterS from "../public/images/letters/UpperS.png";
+import paperBackdrop from "../public/images/paper_backdrop.jpg";
 import { letterJumble } from "../components/custom";
 import SupportUs from "components/SupportUs";
 import woodenFigure from "../public/images/fig_1.png";
