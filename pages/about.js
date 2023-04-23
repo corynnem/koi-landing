@@ -84,7 +84,7 @@ const AboutUsPage = () => {
             At our dating app, everyone is welcome regardless of age, sexuality,
             or gender. We believe that love is love, and it knows no boundaries.
             Our app is inclusive, diverse, and welcoming to
-            <b> everyone</b>.
+            {/* <b> everyone</b>. */}
             {/* <br />
             <br /> */}
             We also believe that dating should be fun! That's why we've designed
