@@ -12,10 +12,10 @@ import { letterJumble } from "../components/custom";
 import SupportUs from "components/SupportUs";
 import woodenFigure from "../public/images/fig_1.png";
 
-// const AboutUsPage = () => {
-//   useEffect(() => {
-//     letterJumble();
-//   }, []);
+const AboutUsPage = () => {
+  //   useEffect(() => {
+  //     letterJumble();
+  //   }, []);
   return (
     <div>
       <Navbar />
