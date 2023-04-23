@@ -68,7 +68,7 @@ const AboutUsPage = () => {
           />
           <p
             style={{
-              backgroundImage: `url(${paperBackdrop.src})`,
+              // backgroundImage: `url(${paperBackdrop.src})`,
               padding: "50px",
               marginTop: "-110px",
             }}
