@@ -67,11 +67,11 @@ const AboutUsPage = () => {
             }}
           />
           <p
-          // style={{
-          //   backgroundImage: `url(${paperBackdrop.src})`,
-          //   padding: "50px",
-          //   marginTop: "-110px",
-          // }}
+            style={{
+              backgroundImage: `url(${paperBackdrop.src})`,
+              padding: "50px",
+              marginTop: "-110px",
+            }}
           >
             Looking for love? Tired of swiping through impersonal profiles on
             corporate-owned dating apps? Look no further! Koi is all about
@@ -80,21 +80,21 @@ const AboutUsPage = () => {
             influence from big corporations. We put you in control of your
             dating experience, so you can connect with people who truly matter
             to you.
-            {/* <br />
-            <br /> */}
+            <br />
+            <br />
             At our dating app, everyone is welcome regardless of age, sexuality,
             or gender. We believe that love is love, and it knows no boundaries.
             Our app is inclusive, diverse, and welcoming to
-            {/* <b> everyone</b>. */}
-            {/* <br />
-            <br /> */}
+            <b> everyone</b>.
+            <br />
+            <br />
             We also believe that dating should be fun! Tha&apos;s why we&apos;ve
             designed Koi to be engaging, interactive, and exciting. Our app is
             not just another corporate-owned dating app that feels mechanical,
             disconnected, and impersonal. We&apos;re a community-driven platform
             that values human connection and real relationships.
-            {/* <br />
-            <br /> */}
+            <br />
+            <br />
             Most importantly, we will not sell out to large corporations. We
             respect your privacy and your personal data, and we&apos;ll never
             compromise on that. We&apos;re here to build a better dating app
