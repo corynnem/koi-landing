@@ -1,26 +1,26 @@
 import React, { useEffect } from "react";
 
-import Navbar from "components/Navbar";
-import LetterA from "../public/images/letters/A1.png";
-import LetterB from "../public/images/letters/b1.jpg";
-import LetterO from "../public/images/letters/o1.jpg";
-import LetterU from "../public/images/letters/U1.png";
-import LetterT from "../public/images/letters/T1.png";
-import LetterU2 from "../public/images/letters/U2.png";
-import LetterS from "../public/images/letters/UpperS.png";
-import paperBackdrop from "../public/images/paper_backdrop.jpg";
-import { letterJumble } from "../components/custom";
-import SupportUs from "components/SupportUs";
-import woodenFigure from "../public/images/fig_1.png";
+// import Navbar from "components/Navbar";
+// import LetterA from "../public/images/letters/A1.png";
+// import LetterB from "../public/images/letters/b1.jpg";
+// import LetterO from "../public/images/letters/o1.jpg";
+// import LetterU from "../public/images/letters/U1.png";
+// import LetterT from "../public/images/letters/T1.png";
+// import LetterU2 from "../public/images/letters/U2.png";
+// import LetterS from "../public/images/letters/UpperS.png";
+// import paperBackdrop from "../public/images/paper_backdrop.jpg";
+// import { letterJumble } from "../components/custom";
+// import SupportUs from "components/SupportUs";
+// import woodenFigure from "../public/images/fig_1.png";
 
 const AboutUsPage = () => {
-  useEffect(() => {
-    letterJumble();
-  }, []);
+  // useEffect(() => {
+  //   letterJumble();
+  // }, []);
   return (
     <div>
-      <Navbar />
-      <div
+      {/* <Navbar /> */}
+      {/* <div
         style={{
           position: "absolute",
           marginTop: "100px",
@@ -52,7 +52,7 @@ const AboutUsPage = () => {
             </div>
           </div>
         </div>
-        <p
+        <div
           style={{
             marginTop: "-40px",
           }}
@@ -66,7 +66,7 @@ const AboutUsPage = () => {
               height: "auto",
             }}
           />
-          <div
+          <p
             style={{
               backgroundImage: `url(${paperBackdrop.src})`,
               padding: "50px",
@@ -101,10 +101,10 @@ const AboutUsPage = () => {
             happy relationships. So, what are you waiting for? Download our
             dating app today and start your journey to finding love. We promise
             it'll be an experience like no other!
-          </div>
-        </p>
+          </p>
+        </div>
         <SupportUs />
-      </div>
+      </div> */}
     </div>
   );
 };
