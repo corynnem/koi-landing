@@ -16,6 +16,7 @@ import paperBackdrop from "../public/images/paper_backdrop.jpg";
 import swiping from "../public/images/swiping.png";
 import pay from "../public/images/pay_for_love.png";
 import robots from "../public/images/robots.png";
+import noMore from "../public/images/no_more.png";
 
 const About = () => {
   return (
@@ -117,12 +118,23 @@ const About = () => {
 
           {/* END about header  */}
 
-          <p>
+          <center><p className="blue-cutout">
             WE ARE MAKING A DATING APP THAT ACTUALLY WORKS!!
+            </p>
             <br />
             <br />
-            We are doing away with:
-          </p>
+           
+          <Image
+                alt="swiping on dating apps"
+                src={noMore}
+                className=""
+                style={{
+                  width: "90%",
+                  height: "auto",
+                  maxWidth: "200px"
+                }}
+              />
+          </center>
           {/* Start No smoking images */}
           <div
             className="border-purple"
