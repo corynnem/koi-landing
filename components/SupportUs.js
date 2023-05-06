@@ -1,4 +1,7 @@
 import React from "react";
+import tikTok from "../public/images/tik-tok.png";
+import patreon from "../public/images/patreon.png";
+import bubbleWrap from "../public/images/bubblewrap.jpg";
 
 const SupportUs = () => {
   const iconStyles = {
