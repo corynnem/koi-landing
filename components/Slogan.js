@@ -20,7 +20,7 @@ import UpperU from "../public/images/letters/UpperU.png";
 import LowerL from "../public/images/letters/LowerL.png";
 import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
-import koi from "../public/images/underwater_rocks.jpg";
+import koi from "../public/images/fish.gif";
 import lily from "../public/images/lilypad.png";
 import splat from "../public/images/splat.png";
 import About from "components/AboutUs";
