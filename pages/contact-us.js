@@ -11,8 +11,10 @@ import LetterU2 from "../public/images/letters/U2.png";
 import LetterS from "../public/images/letters/UpperS.png";
 import woodenFigure from "../public/images/fig_1.png";
 import flowerBackdrop from "../public/images/flower_backdrop.jpg";
+import { useRouter } from "next/router";
 
 const ContactPage = () => {
+  const router = useRouter();
   const inputStyles = {
     display: "flex",
     flexDirection: "column",
@@ -138,7 +140,7 @@ const ContactPage = () => {
               id="fs-frm"
               name="simple-contact-form"
               accept-charset="utf-8"
-              action="https://formspree.io/f/{form_id}"
+              action="https://formspree.io/f/mzbqoorz"
               method="post"
               style={{ padding: "20px" }}
             >
