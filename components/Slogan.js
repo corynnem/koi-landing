@@ -43,7 +43,7 @@ const Slogan = () => {
         height: "100vh",
         minWidth: "354px",
         position: "relative",
-        backgroundImage: ` url(${koi.src})`,
+        // backgroundImage: ` url(${koi.src})`,
       }}
     >
       {/* Start collage Section */}

@@ -1,11 +1,11 @@
 import headshot from "../../public/images/testImages/headshot.jpg";
-import benHeadShot from "../../public/images/headshots/benHeadshot.jpg";
-import corynneHeadShot from "../../public/images/headshots/corynneHeadshot.jpg";
-import graceHeadShot from "../../public/images/headshots/graceHeadshot.jpg";
-import wayneHeadShot from "../../public/images/headshots/waynesHeadshot.jpg";
-import laurenHeadShot from "../../public/images/headshots/laurenHeadshot.jpg";
-import treyHeadShot from "../../public/images/headshots/treyHeadshot.jpg";
-import shannaHeadShot from "../../public/images/headshots/shannaHeadshot.jpg";
+import benHeadShot from "../../public/images/headshots/benHeadshot.png";
+import corynneHeadShot from "../../public/images/headshots/corynneHeadshot.png";
+import graceHeadShot from "../../public/images/headshots/graceHeadshot.png";
+import wayneHeadShot from "../../public/images/headshots/waynesHeadshot.png";
+import laurenHeadShot from "../../public/images/headshots/laurenHeadshot.png";
+import treyHeadShot from "../../public/images/headshots/treyHeadshot.png";
+import shannaHeadShot from "../../public/images/headshots/shannaHeadshot.png";
 
 const headshotStyles = {
   height: "350px",
