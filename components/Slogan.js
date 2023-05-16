@@ -22,18 +22,20 @@ import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
 import koi from "../public/images/underwater_rocks.jpg";
 import lily from "../public/images/lilypad.png";
+import leaf from "../public/images/Pear_Leaf.png";
 import splat from "../public/images/splat.png";
 import About from "components/AboutUs";
 import MissionStatement from "components/MissionStatement";
 import OurTeam from "components/OurTeam";
 import SupportUs from "components/SupportUs";
 import { letterJumble } from "./custom";
+import { useRouter } from "next/router";
 
 const Slogan = () => {
   useEffect(() => {
     letterJumble();
   }, []);
-
+  const router = useRouter();
   return (
     <div
       className="ripples border-purple"
@@ -194,6 +196,8 @@ const Slogan = () => {
 
           <div style={{ display: "flex", flexDirection: "row" }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}></div>
+          
+          <a onClick={() => router.push("/support-us")}>
           <div
             className="border-blue"
             style={{
@@ -210,7 +214,9 @@ const Slogan = () => {
               style={{
                 width: "50vh",
                 height: "auto",
+                cursor: "pointer",
               }}
+              className="splat"
             />
             <p
               style={{
@@ -219,13 +225,15 @@ const Slogan = () => {
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "center",
-
+                pointerEvents: "none",
                 fontSize: "4vh",
               }}
             >
               SUPPORT THE <br></br> MOVEMENT!
             </p>
           </div>
+          </a>
+
         </div>
         {/* End Letters Section */}
 
@@ -251,6 +259,7 @@ const Slogan = () => {
             }}
           >
             <Image src={lily} className="lillyPad" alt="lilly pad" priority />
+            {/* <Image src={leaf} className="a-leaf" alt="lilly pad" priority /> */}
           </div>
         </div>
 

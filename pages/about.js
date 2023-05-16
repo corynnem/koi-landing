@@ -1,13 +1,16 @@
 import React, { useEffect } from "react";
 
 import Navbar from "components/Navbar";
-import LetterA from "../public/images/letters/A1.png";
-import LetterB from "../public/images/letters/b1.jpg";
-import LetterO from "../public/images/letters/o1.jpg";
-import LetterU from "../public/images/letters/U1.png";
-import LetterT from "../public/images/letters/T1.png";
-import LetterU2 from "../public/images/letters/U2.png";
-import LetterS from "../public/images/letters/UpperS.png";
+import letterT from "../public/images/letters/T1.png";
+import letterH from "../public/images/letters/H1.jpg";
+import letterE from "../public/images/letters/E1.png";
+import letterP from "../public/images/letters/P2.png";
+import letterR from "../public/images/letters/r1.jpg";
+import letterO from "../public/images/letters/o1.jpg";
+import letterJ from "../public/images/letters/j1.jpg";
+import letterE2 from "../public/images/letters/E4.png";
+import letterC from "../public/images/letters/C4.png";
+import letterT2 from "../public/images/letters/T3.png";
 import { letterJumble } from "../components/custom";
 import SupportUs from "components/SupportUs";
 import woodenFigure from "../public/images/fig_1.png";
@@ -42,58 +45,35 @@ const AboutUsPage = () => {
           overflowY: "scroll",
         }}
       >
-        <div style={{ marginTop: "100px" }}>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              gap: "10px",
-              justifyContent: "center",
-            }}
-          >
-            <div>
-              <img
-                src={LetterA.src}
-                className=" outline large"
-                alt="Letter A"
-              />
-              <img
-                src={LetterB.src}
-                className=" outline medium"
-                alt="Letter B"
-              />
-              <img
-                src={LetterO.src}
-                className=" outline medium"
-                alt="Letter O"
-              />
-              <img
-                src={LetterU.src}
-                className=" outline medium"
-                alt="Letter U"
-              />
-              <img
-                src={LetterT.src}
-                className=" outline medium"
-                alt="Letter T"
-              />
-            </div>
+        <div className="border-red">
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                flexWrap: "wrap",
+                gap: "10px",
+                paddingBottom: "20px",
+                justifyContent: "center",
+                marginTop: "250px"
+              }}
+            >
+              <div>
+                <img src={letterT.src} className=" outline large" />
+                <img src={letterH.src} className=" outline medium" />
+                <img src={letterE.src} className=" outline medium" />
+              </div>
 
-            <div>
-              <img
-                src={LetterU2.src}
-                className=" outline medium"
-                alt="Letter U"
-              />
-              <img
-                src={LetterS.src}
-                className=" outline medium"
-                alt="Letter S"
-              />
+              <div>
+                <img src={letterP.src} className=" outline medium" />
+                <img src={letterR.src} className=" outline medium" />
+                <img src={letterO.src} className=" outline medium" />
+                <img src={letterJ.src} className=" outline medium" />
+                <img src={letterE2.src} className=" outline medium" />
+                <img src={letterC.src} className=" outline medium" />
+                <img src={letterT2.src} className=" outline medium" />
+              </div>
             </div>
           </div>
-        </div>
         <div
           style={{
             marginTop: "-40px",

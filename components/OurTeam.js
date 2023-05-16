@@ -21,7 +21,7 @@ const OurTeam = () => {
         style={{
           display: "flex",
           justifyContent: "center",
-          marginTop: "100px",
+          marginTop: "0px",
           flexDirection: "column",
           textAlign: "center",
           width: "80vw",

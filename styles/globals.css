@@ -43,6 +43,15 @@ a {
     height: 8vw;
     min-height: 45px;
   }
+  .small:hover{
+    transform: rotate(0deg);
+  }
+  .medium:hover{
+    transform: rotate(0deg);
+  }
+  .large:hover{
+    transform: rotate(0deg);
+  }
 
   .letter-box {
     width: 95vw;
@@ -50,10 +59,39 @@ a {
 
   .lillyPad {
     visibility: hidden;
-    width: 95vw;
+    width: 150vw;
     height: auto;
     position: absolute;
-    top: 60%;
+    top: 300px;
+    left: -350px;
+  }
+
+  .a-leaf{
+    
+    width: 150vw;
+    height: auto;
+    position: absolute;
+    top: 450px;
+    left: -200px;
+    transform: rotate(50deg);
+  }
+
+  .leftleaf{
+
+    position: absolute;
+    top: -200px;
+    z-index: -1;
+  }
+
+  .full-leaf{
+    position: absolute;
+    width: 200vw;
+    height: auto;
+    max-width: 600px;
+    left: -200px;
+    top: -100px;
+    z-index: 0;
+    transform: rotate(-20deg);
   }
 }
 
@@ -68,6 +106,7 @@ a {
     height: 8vh;
     margin-top: 20px;
   }
+  
 
   .letter-box {
     width: 78vh;
@@ -76,6 +115,23 @@ a {
   .lillyPad {
     width: 95vh;
     height: auto;
+  }
+  
+  .leftleaf{
+
+    position: absolute;
+    top: -200px;
+    z-index: -1;
+  }
+  .full-leaf{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: -300px;
+    top: -200px;
+    z-index: 0;
+    transform: rotate(-18deg);
+    
   }
 }
 
@@ -102,7 +158,29 @@ a {
     width: 95vh;
     height: auto;
   }
+  .leftleaf{
+
+    position: absolute;
+    top: 5px;
+    right: -210px;
+    z-index: -1;
+  }
+  .full-leaf{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    max-width: 1000px;
+    left: -350px;
+    top: -200px;
+    z-index: 0;
+    transform: rotate(0deg);
+    
+  }
+  
 }
+
+
+
 
 * {
   margin: 0;
@@ -114,17 +192,18 @@ body {
 nav {
   height: 6rem;
   width: 100vw;
-  /* background-color: #131418; */
+  background-color: #00ceff;
   /* box-shadow: 100px 3px 20px rgba(0, 0, 0, 0.2); */
   /* background-color: ; */
 
   display: flex;
   position: fixed;
-  z-index: 10;
+  z-index: 1000;
   color: #f2f5f7;
   font-family: sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
+  box-shadow:  0px 5px 15px #00000036 ;
 }
 
 /* styling div containers like torn paper */
@@ -142,6 +221,7 @@ nav {
 .logo {
   text-align: center;
   width: 200px;
+  z-index: 2000;
 }
 .logo img {
   height: 4rem;
@@ -200,11 +280,12 @@ nav {
 @media screen and (max-width: 800px) {
   nav {
     position: fixed;
-    z-index: 3;
+    z-index: 1000;
   }
 
   .logo {
-    display: none;
+    display: block;
+    z-index: 2000 ;
   }
   .hamburger {
     display: block;
@@ -213,7 +294,7 @@ nav {
     right: 5%;
     top: 50%;
     transform: translate(-5%, -50%);
-    z-index: 2;
+    z-index: 1001;
     transition: all 0.7s ease;
   }
   .nav-links {
@@ -480,7 +561,15 @@ nav {
 
 .project-explain {
   text-align: center;
-  width: 75%;
+  width: 100%;
+  max-width: 800px;
+  border-style: solid;
+border-color: #ffFFFF;
+padding: 10px ;
+border-width: 10px ;
+background-color: #ff880096;
+border-radius: 5px;
+box-shadow:  0px 5px 15px #000000 ;
 }
 
 .abt-paper {
@@ -488,10 +577,169 @@ nav {
 }
 
 .blue-cutout {
-  background-color: #00ceff;
-  color: aliceblue;
+  background-color: #ffe60034;
+  color: rgb(0, 0, 0);
   padding: 10px;
   border-radius: 10px;
-  max-width: 400px;
-  box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.699);
+ font-weight: bold;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 500px;
+  box-shadow:  0px 5px 15px #000000 ;
 }
+
+.nav-spacer{
+  /* background-color: #000; */
+  width: 100%;
+  height: 25vh;
+}
+
+.card-support {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  max-width: 400px;
+  width: 90vw;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.bottom-button {
+ 
+  width: 50%;
+  height: 60px;
+  margin-top: 10%;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.yel-back {
+background-color: #ffe600;
+border-style: solid;
+border-color: #ff8800;
+border-width: 2px;
+}
+
+.orange-back {
+background-color: #ff8800;
+border-style: solid;
+border-color:#ffe600;
+border-width: 2px;
+}
+
+.top-gap {
+  margin-top: 75px ;
+}
+
+.card-support-heading {
+  padding-top: 20% ;
+
+}
+
+.bottom-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.sup-patreaon {
+height: 100%;
+width: auto;
+padding: 3px;
+}
+
+.flex-y-center {
+  align-self: center;
+}
+
+.dev-card-image {
+width: 200px;
+position: absolute;
+top: -20%;
+transform: rotate(5deg);
+}
+
+.ads-card-image {
+  width: 200px;
+  position: absolute;
+  top: -20%;
+  left: -15px;
+  transform: rotate(-10deg);
+  }
+
+
+ 
+
+
+  .splat{
+    transition: .8s;
+  }
+  
+  .splat:hover{
+    transform:scaleX(1.5);
+  }
+
+
+
+
+
+
+  .collapsible {
+    background-color: #ff8800;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow:  0px -3px 5px 0px #1314188e;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ffa200;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    width: 95%;
+    margin: auto;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    
+  }
+
+  .bestleaf{
+    position: absolute;
+    width: 200vw;
+    height: auto;
+    max-width: 600px;
+    left: -300px;
+    top: -500px;
+    z-index: -1;
+    transform: rotate(-40deg);
+  }
+  
