@@ -10,7 +10,7 @@ const SupportUs = () => {
   };
   return (
     <div
-    className=" dot-border-yellow"
+      className=" dot-border-yellow"
       style={{
         display: "flex",
         justifyContent: "center",
@@ -22,7 +22,6 @@ const SupportUs = () => {
         gap: "50px",
         marginBottom: "100px",
         backgroundImage: ` url(${bubbleWrap.src})`,
-        
       }}
     >
       <h1>Support Us</h1>
