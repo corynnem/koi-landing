@@ -368,7 +368,7 @@ const AboutUsPage = () => {
               </p>
               <br></br>
               <p>
-                <b>The Solution:</b> No MORE F*CKING SWIPING! At Koi, we've
+                <b>The Solution:</b> No MORE F*CKING SWIPING! At Koi, we&apos;ve
                 revolutionized the way you find and view profiles. Our dating
                 platform takes the form of a charming town, with each building
                 representing different relationship goals. For instance, the BAR
@@ -376,17 +376,17 @@ const AboutUsPage = () => {
                 other buildings cater to various relationship styles.
                 Conversations in specific areas make intentions clear, and the
                 purpose of each area is reinforced upon entry. Inside buildings,
-                you'll find users matching your criteria for that area. When
-                interested in someone, our system checks for important missing
-                information flagged by the other person, ensuring compatibility.
-                If everything aligns, start chatting! If not, you're protected
-                from conversations that wouldn't go anywhere. If the
-                conversation goes well, exchanging in-app phone numbers is an
-                option, and both users are saved in each other's in-app phone
-                book, effectively becoming matches. This system allows
-                individuals to move at the pace they want, does not treat people
-                like objects, and gives users the space to talk casually BEFORE
-                any match is made.{" "}
+                you&apos;ll find users matching your criteria for that area.
+                When interested in someone, our system checks for important
+                missing information flagged by the other person, ensuring
+                compatibility. If everything aligns, start chatting! If not,
+                you&apos;re protected from conversations that wouldn&apos;t go
+                anywhere. If the conversation goes well, exchanging in-app phone
+                numbers is an option, and both users are saved in each
+                other&apos;s in-app phone book, effectively becoming matches.
+                This system allows individuals to move at the pace they want,
+                does not treat people like objects, and gives users the space to
+                talk casually BEFORE any match is made.{" "}
               </p>
             </div>
 
@@ -462,7 +462,7 @@ const AboutUsPage = () => {
               <p>
                 <b>The Solution:</b> Koi&apos;s user voting system effectively
                 filters out individuals misusing our app for such unintended
-                purposes. These users won't be able to come back as their
+                purposes. These users won&apos;t be able to come back as their
                 activity will be associated with their ID because of our ID
                 verification system. This approach not only discourages
                 salespeople but ensures that Koi can be enjoyed as intended by
@@ -553,7 +553,7 @@ const AboutUsPage = () => {
                 <b>The Solution:</b> We are switching things up and creating an
                 interactive fun space with much more to do, explore, and play
                 with. We want to create a space that puts the fun back in
-                functional. (sorry … we couldn't help ourselves)
+                functional. (sorry … we couldn&apos;t help ourselves)
               </p>
             </div>
 
@@ -610,21 +610,22 @@ const AboutUsPage = () => {
             </div>
 
             <button onClick={dropdown} className="collapsible">
-              What if I'm Not Particular?
+              What if I&apos;m Not Particular?
             </button>
             <div className="content">
               <p>
-                With Koi's two-way search system, you have the flexibility to
-                see everyone who might be interested in you, even if you're not
-                actively seeking anything specific. If you prefer to explore all
-                potential matches without setting preferences, that's completely
-                possible! Just remember that while you may not have specific
-                criteria, other users probably will. To interact with those
-                users and move beyond profile viewing, you'll be prompted to
-                provide the necessary information to determine your
-                compatibility with that person. However, if that is still a
-                problem, you can elect to only see people who aren&apos;t
-                particular about what they are looking for either!{" "}
+                With Koi&apos;s two-way search system, you have the flexibility
+                to see everyone who might be interested in you, even if
+                you&apos;re not actively seeking anything specific. If you
+                prefer to explore all potential matches without setting
+                preferences, that&apos;s completely possible! Just remember that
+                while you may not have specific criteria, other users probably
+                will. To interact with those users and move beyond profile
+                viewing, you&apos;ll be prompted to provide the necessary
+                information to determine your compatibility with that person.
+                However, if that is still a problem, you can elect to only see
+                people who aren&apos;t particular about what they are looking
+                for either!{" "}
               </p>
             </div>
 
