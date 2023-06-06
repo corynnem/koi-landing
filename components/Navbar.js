@@ -46,6 +46,7 @@ const Navbar = () => {
               style={{
                 marginBottom: "-10px",
               }}
+              alt="The Koi logo, two cartoon fish"
             />
             i
           </h1>
