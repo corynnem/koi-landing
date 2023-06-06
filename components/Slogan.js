@@ -45,7 +45,7 @@ const Slogan = () => {
         height: "100vh",
         minWidth: "354px",
         position: "relative",
-        // backgroundImage: ` url(${koi.src})`,
+        backgroundImage: ` url(${koi.src})`,
       }}
     >
       {/* Start collage Section */}
@@ -96,7 +96,11 @@ const Slogan = () => {
               }}
             >
               <img src={UpperA.src} className=" outline large" alt="Letter A" />
-              <img src={LowerN.src} className=" outline medium" alt="Letter N" />
+              <img
+                src={LowerN.src}
+                className=" outline medium"
+                alt="Letter N"
+              />
             </div>
             <div
               style={{
@@ -105,9 +109,21 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={LowerA.src} className=" outline medium" alt="Letter A" />
-              <img src={LowerP.src} className=" outline medium" alt="Letter P" />
-              <img src={LowerP2.src} className=" outline medium" alt="Letter P" />
+              <img
+                src={LowerA.src}
+                className=" outline medium"
+                alt="Letter A"
+              />
+              <img
+                src={LowerP.src}
+                className=" outline medium"
+                alt="Letter P"
+              />
+              <img
+                src={LowerP2.src}
+                className=" outline medium"
+                alt="Letter P"
+              />
             </div>
             <div
               style={{
@@ -116,8 +132,12 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={UpperT.src} className=" outline medium" alt="Letter T" />
-              <img src={LowerO.src} className=" outline small"  alt="Letter O" />
+              <img
+                src={UpperT.src}
+                className=" outline medium"
+                alt="Letter T"
+              />
+              <img src={LowerO.src} className=" outline small" alt="Letter O" />
             </div>
             <div
               style={{
@@ -126,10 +146,26 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={UpperF.src} className=" outline medium" alt="Letter F" />
-              <img src={LowerI.src} className=" outline medium" alt="Letter I" />
-              <img src={LowerN.src} className=" outline medium" alt="Letter N" />
-              <img src={LowerD.src} className=" outline medium" alt="Letter D" />
+              <img
+                src={UpperF.src}
+                className=" outline medium"
+                alt="Letter F"
+              />
+              <img
+                src={LowerI.src}
+                className=" outline medium"
+                alt="Letter I"
+              />
+              <img
+                src={LowerN.src}
+                className=" outline medium"
+                alt="Letter N"
+              />
+              <img
+                src={LowerD.src}
+                className=" outline medium"
+                alt="Letter D"
+              />
             </div>
             <div
               style={{
@@ -138,10 +174,18 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={UpperL.src} className=" outline medium" alt="Letter L" />
-              <img src={LowerO.src} className=" outline small"  alt="Letter O"/>
-              <img src={LowerV.src} className=" outline medium" alt="Letter V"/>
-              <img src={UpperE.src} className=" outline small"  alt="Letter E"/>
+              <img
+                src={UpperL.src}
+                className=" outline medium"
+                alt="Letter L"
+              />
+              <img src={LowerO.src} className=" outline small" alt="Letter O" />
+              <img
+                src={LowerV.src}
+                className=" outline medium"
+                alt="Letter V"
+              />
+              <img src={UpperE.src} className=" outline small" alt="Letter E" />
             </div>
             <div
               style={{
@@ -150,14 +194,42 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={UpperS.src} className=" outline medium" alt="Letter S" />
-              <img src={LowerH.src} className=" outline medium" alt="Letter H" />
-              <img src={LowerO.src} className=" outline small"  alt="Letter O" />
-              <img src={UpperU.src} className=" outline medium" alt="Letter U" />
-              <img src={LowerL.src} className=" outline medium" alt="Letter L" />
-              <img src={LowerD.src} className=" outline medium" alt="Letter D" />
-              <img src={LowerN.src} className=" outline medium" alt="Letter N" />
-              <img src={LowerT.src} className=" outline medium" alt="Letter T" />
+              <img
+                src={UpperS.src}
+                className=" outline medium"
+                alt="Letter S"
+              />
+              <img
+                src={LowerH.src}
+                className=" outline medium"
+                alt="Letter H"
+              />
+              <img src={LowerO.src} className=" outline small" alt="Letter O" />
+              <img
+                src={UpperU.src}
+                className=" outline medium"
+                alt="Letter U"
+              />
+              <img
+                src={LowerL.src}
+                className=" outline medium"
+                alt="Letter L"
+              />
+              <img
+                src={LowerD.src}
+                className=" outline medium"
+                alt="Letter D"
+              />
+              <img
+                src={LowerN.src}
+                className=" outline medium"
+                alt="Letter N"
+              />
+              <img
+                src={LowerT.src}
+                className=" outline medium"
+                alt="Letter T"
+              />
             </div>
             <div
               style={{
@@ -166,10 +238,22 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={UpperL.src} className=" outline medium" alt="Letter L" />
-              <img src={UpperE.src} className=" outline small"  alt="Letter E" />
-              <img src={LowerA.src} className=" outline medium" alt="Letter A" />
-              <img src={LowerD.src} className=" outline medium" alt="Letter D" />
+              <img
+                src={UpperL.src}
+                className=" outline medium"
+                alt="Letter L"
+              />
+              <img src={UpperE.src} className=" outline small" alt="Letter E" />
+              <img
+                src={LowerA.src}
+                className=" outline medium"
+                alt="Letter A"
+              />
+              <img
+                src={LowerD.src}
+                className=" outline medium"
+                alt="Letter D"
+              />
             </div>
             <div
               style={{
@@ -178,9 +262,21 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={UpperY.src} className=" outline medium" alt="Letter Y" />
-              <img src={UpperO.src} className=" outline medium" alt="Letter O" />
-              <img src={UpperU.src} className=" outline medium" alt="Letter U" />
+              <img
+                src={UpperY.src}
+                className=" outline medium"
+                alt="Letter Y"
+              />
+              <img
+                src={UpperO.src}
+                className=" outline medium"
+                alt="Letter O"
+              />
+              <img
+                src={UpperU.src}
+                className=" outline medium"
+                alt="Letter U"
+              />
             </div>
             <div
               style={{
@@ -189,52 +285,59 @@ const Slogan = () => {
                 gap: "10px",
               }}
             >
-              <img src={UpperO.src} className=" outline medium" alt="Letter O" />
-              <img src={LowerN.src} className=" outline medium" alt="Letter N" />
+              <img
+                src={UpperO.src}
+                className=" outline medium"
+                alt="Letter O"
+              />
+              <img
+                src={LowerN.src}
+                className=" outline medium"
+                alt="Letter N"
+              />
             </div>
           </div>
 
           <div style={{ display: "flex", flexDirection: "row" }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}></div>
-          
+
           <a onClick={() => router.push("/support-us")}>
-          <div
-            className="border-blue"
-            style={{
-              paddingTop: "30px",
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-              transform: "rotate(5deg)",
-            }}
-          >
-            <Image
-              alt="splattered background"
-              src={splat}
+            <div
+              className="border-blue"
               style={{
-                width: "50vh",
-                height: "auto",
-                cursor: "pointer",
-              }}
-              className="splat"
-              priority
-            />
-            <p
-              style={{
-                position: "absolute",
-                paddingTop: "5px",
+                paddingTop: "30px",
                 display: "flex",
                 flexDirection: "row",
                 justifyContent: "center",
-                pointerEvents: "none",
-                fontSize: "4vh",
+                transform: "rotate(5deg)",
               }}
             >
-              SUPPORT THE <br></br> MOVEMENT!
-            </p>
-          </div>
+              <Image
+                alt="splattered background"
+                src={splat}
+                style={{
+                  width: "50vh",
+                  height: "auto",
+                  cursor: "pointer",
+                }}
+                className="splat"
+                priority
+              />
+              <p
+                style={{
+                  position: "absolute",
+                  paddingTop: "5px",
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "center",
+                  pointerEvents: "none",
+                  fontSize: "4vh",
+                }}
+              >
+                SUPPORT THE <br></br> MOVEMENT!
+              </p>
+            </div>
           </a>
-
         </div>
         {/* End Letters Section */}
 

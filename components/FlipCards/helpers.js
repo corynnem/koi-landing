@@ -26,6 +26,7 @@ export const cards = [
     front: (
       <div className="relative" style={headshotWrapper}>
         <img
+          alt="ben's headshot"
           className="Yellow-border"
           src={benHeadShot.src}
           style={headshotStyles}
@@ -59,6 +60,7 @@ export const cards = [
     front: (
       <div className="relative" style={headshotWrapper}>
         <img
+          alt="corynnes headshot"
           className="orange-border"
           src={corynneHeadShot.src}
           style={headshotStyles}
@@ -93,6 +95,7 @@ export const cards = [
     front: (
       <div className="relative" style={headshotWrapper}>
         <img
+          alt="grace's headshot"
           className="Yellow-border"
           src={graceHeadShot.src}
           style={headshotStyles}
@@ -127,6 +130,7 @@ export const cards = [
     front: (
       <div className="relative" style={headshotWrapper}>
         <img
+          alt="wayne's headshot"
           className="orange-border"
           src={wayneHeadShot.src}
           style={headshotStyles}
@@ -162,6 +166,7 @@ export const cards = [
     front: (
       <div className="relative" style={headshotWrapper}>
         <img
+          alt="lauren's headshot"
           className="Yellow-border"
           src={laurenHeadShot.src}
           style={headshotStyles}
@@ -198,6 +203,7 @@ export const cards = [
     front: (
       <div className="relative" style={headshotWrapper}>
         <img
+          alt="trey's headshot"
           className="orange-border"
           src={treyHeadShot.src}
           style={headshotStyles}
@@ -233,6 +239,7 @@ export const cards = [
     front: (
       <div className="relative" style={headshotWrapper}>
         <img
+          alt="shanna's headshot"
           className="Yellow-border"
           src={shannaHeadShot.src}
           style={headshotStyles}
