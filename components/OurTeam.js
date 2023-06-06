@@ -21,7 +21,7 @@ const OurTeam = () => {
         style={{
           display: "flex",
           justifyContent: "center",
-          marginTop: "100px",
+          marginTop: "0px",
           flexDirection: "column",
           textAlign: "center",
           width: "80vw",
@@ -38,16 +38,16 @@ const OurTeam = () => {
             }}
           >
             <div>
-              <img src={letterO.src} className=" outline large" />
-              <img src={letterU.src} className=" outline large" />
-              <img src={letterR.src} className=" outline large" />
+              <img src={letterO.src} className=" outline large" alt="Letter O"/>
+              <img src={letterU.src} className=" outline large" alt="Letter U" />
+              <img src={letterR.src} className=" outline large" alt="Letter R" />
             </div>
 
             <div>
-              <img src={letterT.src} className=" outline large" />
-              <img src={letterE.src} className=" outline large" />
-              <img src={letterA.src} className=" outline large" />
-              <img src={letterM.src} className=" outline large" />
+              <img src={letterT.src} className=" outline large" alt="Letter T" />
+              <img src={letterE.src} className=" outline large" alt="Letter E" />
+              <img src={letterA.src} className=" outline large" alt="Letter A" />
+              <img src={letterM.src} className=" outline large" alt="Letter M" />
             </div>
           </div>
         </div>

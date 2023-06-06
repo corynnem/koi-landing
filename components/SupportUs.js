@@ -26,8 +26,8 @@ const SupportUs = () => {
     >
       <h1>Support Us</h1>
       <div style={{ display: "flex", justifyContent: "center", gap: "40px" }}>
-        <img src={tikTok.src} style={iconStyles} />
-        <img src={patreon.src} style={iconStyles} />
+        <img src={tikTok.src} style={iconStyles} alt="tikTok logo" />
+        <img src={patreon.src} style={iconStyles} alt="Patreon logo" />
       </div>
     </div>
   );

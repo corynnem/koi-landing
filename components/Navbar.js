@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        {width > 700 && (
+        {/* {width > 700 && ( */}
           <h1
             style={{
               fontSize: "60px",
@@ -37,7 +37,7 @@ const Navbar = () => {
               top: 10,
               zIndex: 1000,
               color: "white",
-              marginLeft: "50px",
+              marginLeft: "10px",
             }}
           >
             K
@@ -46,10 +46,11 @@ const Navbar = () => {
               style={{
                 marginBottom: "-10px",
               }}
+              alt="The Koi logo, two cartoon fish"
             />
             i
           </h1>
-        )}
+        {/* )} */}
       </div>
       <div className="hamburger">
         <div className="line1"></div>
