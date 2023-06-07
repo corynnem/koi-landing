@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import Image from "next/image";
 import woodGroup from "../public/images/fig_16.png";
@@ -20,15 +19,9 @@ import robots from "../public/images/robots.png";
 import noMore from "../public/images/no_more.png";
 import { useRouter } from "next/router";
 
-
-
-
 const About = () => {
   const router = useRouter();
-  useEffect(() => {
-    
-  }, []);
-
+  useEffect(() => {}, []);
 
   return (
     <div
@@ -73,7 +66,6 @@ const About = () => {
             flexDirection: "column",
             backgroundImage: ` url(${paperBackdrop.src})`,
             padding: "50px 10px 10px 10px",
-            
           }}
         >
           {/* start about header  */}
@@ -87,49 +79,89 @@ const About = () => {
                 gap: "10px",
                 paddingBottom: "20px",
                 justifyContent: "center",
-                
               }}
             >
               <div>
-                <img src={letterT.src} className=" outline large" alt="Letter T" />
-                <img src={letterH.src} className=" outline medium" alt="Letter H" />
-                <img src={letterE.src} className=" outline medium" alt="Letter E" />
+                <img
+                  src={letterT.src}
+                  className=" outline large"
+                  alt="Letter T"
+                />
+                <img
+                  src={letterH.src}
+                  className=" outline medium"
+                  alt="Letter H"
+                />
+                <img
+                  src={letterE.src}
+                  className=" outline medium"
+                  alt="Letter E"
+                />
               </div>
 
               <div>
-                <img src={letterP.src} className=" outline medium"  alt="Letter P" />
-                <img src={letterR.src} className=" outline medium"  alt="Letter R" />
-                <img src={letterO.src} className=" outline medium" alt="Letter O" />
-                <img src={letterJ.src} className=" outline medium"  alt="Letter J" />
-                <img src={letterE2.src} className=" outline medium" alt="Letter E" />
-                <img src={letterC.src} className=" outline medium" alt="Letter C" />
-                <img src={letterT2.src} className=" outline medium" alt="Letter T" />
+                <img
+                  src={letterP.src}
+                  className=" outline medium"
+                  alt="Letter P"
+                />
+                <img
+                  src={letterR.src}
+                  className=" outline medium"
+                  alt="Letter R"
+                />
+                <img
+                  src={letterO.src}
+                  className=" outline medium"
+                  alt="Letter O"
+                />
+                <img
+                  src={letterJ.src}
+                  className=" outline medium"
+                  alt="Letter J"
+                />
+                <img
+                  src={letterE2.src}
+                  className=" outline medium"
+                  alt="Letter E"
+                />
+                <img
+                  src={letterC.src}
+                  className=" outline medium"
+                  alt="Letter C"
+                />
+                <img
+                  src={letterT2.src}
+                  className=" outline medium"
+                  alt="Letter T"
+                />
               </div>
             </div>
           </div>
 
           {/* END about header  */}
 
-          <center><p className="blue-cutout">
-            WE ARE DEVELOPING A DATING APP THAT ACTUALLY WORKS!
+          <center>
+            <p className="blue-cutout">
+              WE ARE DEVELOPING A DATING APP THAT ACTUALLY WORKS!
             </p>
             <br></br>
-            <iframe id="video" src="https://www.youtube.com/embed/ZjBZWkRDsoc" 
-            title="YouTube video player" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowFullScreen={true} 
-            webkitallowfullscreen="true"
-             mozallowfullscreen="true"
-             ></iframe>
-           
-          
-          <Image
-                alt="swiping on dating apps"
-                src={leftleaf}
-                className="leftleaf"
-                
-              />
+            <iframe
+              id="video"
+              src="https://www.youtube.com/embed/ZjBZWkRDsoc"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen={true}
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
+            ></iframe>
+
+            <Image
+              alt="swiping on dating apps"
+              src={leftleaf}
+              className="leftleaf"
+            />
           </center>
 
           {/* start explanation  */}
@@ -143,25 +175,20 @@ const About = () => {
           >
             <p className="project-explain">
               {" "}
-              It's time for a new kind of dating app... Koi is made up of a small 
-              team of programmers, designers, and writers who have come together
-              to build a dating app that actually cares about helping people find
-              love. We've created a two-way search system that's designed to show
-              you only the people you WANT to see! 
-              If you would like a more in-depth explanation, check out
-              our list of solutions 
+              It&apos;s time for a new kind of dating app... Koi is made up of a
+              small team of programmers, designers, and writers who have come
+              together to build a dating app that actually cares about helping
+              people find love. We&apos;ve created a two-way search system
+              that&apos;s designed to show you only the people you WANT to see!
+              If you would like a more in-depth explanation, check out our list
+              of solutions
               <br></br>
-              <a id="clickhere" onClick={() => router.push("/about")}>Here!</a>
+              <a id="clickhere" onClick={() => router.push("/about")}>
+                Here!
+              </a>
             </p>
           </div>
           {/* end explanation  */}
-         
-
-
-
-
-
-          
         </div>
       </div>
     </div>
