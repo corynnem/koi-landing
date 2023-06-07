@@ -114,7 +114,7 @@ const About = () => {
             WE ARE DEVELOPING A DATING APP THAT ACTUALLY WORKS!
             </p>
             <br></br>
-            <iframe id="video" src="https://www.youtube.com/embed/sUjxR3BepJw" 
+            <iframe id="video" src="https://www.youtube.com/embed/ZjBZWkRDsoc" 
             title="YouTube video player" 
             frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -143,15 +143,15 @@ const About = () => {
           >
             <p className="project-explain">
               {" "}
-              No one should have to put up with these AWFUL dating
-              apps. Thats why a small band of programmers and designers have
-              come together to build an app that actually cares and puts the
-              power in your hands. We have come up with a two-way search system,
-              that should ensure you can find the people you are looking for.
-              If you would like a more in depth explanation check out
+              It's time for a new kind of dating app... Koi is made up of a small 
+              team of programmers, designers, and writers who have come together
+              to build a dating app that actually cares about helping people find
+              love. We've created a two-way search system that's designed to show
+              you only the people you WANT to see! 
+              If you would like a more in-depth explanation, check out
               our list of solutions 
               <br></br>
-              <a onClick={() => router.push("/about")}>Here!</a>
+              <a id="clickhere" onClick={() => router.push("/about")}>Here!</a>
             </p>
           </div>
           {/* end explanation  */}

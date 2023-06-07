@@ -752,3 +752,26 @@ transform: rotate(5deg);
     width: 80%;
     height:500px;
   }
+
+  #clickhere{
+    cursor: pointer;
+    border-bottom: #00ceff;
+    border-top: #00000000;
+    border-left: #00000000;
+    border-right: #00000000;
+    border-style: solid;
+  }
+
+  #clickhere:hover{
+    cursor: pointer;
+    border-bottom: #61dafb;
+    border-top: #00000000;
+    border-left: #00000000;
+    border-right: #00000000;
+    border-style: solid;
+  }
+
+  .warningtext{
+    color: red;
+    letter-spacing: 6px;
+  }
