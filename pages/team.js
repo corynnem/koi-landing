@@ -10,7 +10,6 @@ import Navbar from "components/Navbar";
 import FlipCards from "components/FlipCards/FlipCards";
 import { letterJumble } from "components/custom";
 import SupportUs from "components/SupportUs";
-import koi from "../public/images/underwater_rocks.jpg";
 
 const OurTeamPage = () => {
   useEffect(() => {
@@ -23,7 +22,6 @@ const OurTeamPage = () => {
         backgroundSize: "cover",
         minWidth: "354px",
         position: "relative",
-        backgroundImage: ` url(${koi.src})`,
         width: "100vw",
         height: "100vh",
         overflowY: "scroll",

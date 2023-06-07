@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "components/Navbar";
 
-import koi from "../public/images/underwater_rocks.jpg";
 import LetterC from "../public/images/letters/C1.png";
 import LetterO from "../public/images/letters/o1.jpg";
 import LetterN from "../public/images/letters/LowerN.png";
@@ -33,7 +32,6 @@ const ContactPage = () => {
         backgroundSize: "cover",
         minWidth: "354px",
         position: "relative",
-        backgroundImage: ` url(${koi.src})`,
         height: "100%",
         width: "100%",
       }}

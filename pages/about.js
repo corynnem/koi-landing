@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 import Navbar from "components/Navbar";
+
 import LetterA from "../public/images/letters/A1.png";
 import LetterB from "../public/images/letters/b1.jpg";
 import LetterO from "../public/images/letters/o1.jpg";
@@ -11,8 +12,6 @@ import LetterS from "../public/images/letters/UpperS.png";
 import { letterJumble } from "../components/custom";
 import SupportUs from "components/SupportUs";
 import woodenFigure from "../public/images/fig_1.png";
-import dynamic from "next/dynamic";
-import koi from "../public/images/underwater_rocks.jpg";
 
 const AboutUsPage = () => {
   return (
@@ -23,7 +22,6 @@ const AboutUsPage = () => {
         backgroundSize: "cover",
         minWidth: "354px",
         position: "relative",
-        backgroundImage: ` url(${koi.src})`,
         height: "100%",
         width: "100%",
       }}
