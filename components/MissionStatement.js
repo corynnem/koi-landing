@@ -23,28 +23,26 @@ const MissionStatement = () => {
       <div
         style={{
           position: "relative",
-            }}>
+        }}
+      >
         <Image
-                        alt="swiping on dating apps"
-                        src={fullLeaf}
-                        className="full-leaf"
-                        
-                      />
-
-        </div>
+          alt="swiping on dating apps"
+          src={fullLeaf}
+          className="full-leaf"
+        />
+      </div>
       <Paper
         style={{
           padding: "40px",
           width: "70vw",
           backgroundImage: ` url(${flowerBackdrop.src})`,
           fontSize: "20px",
-          zIndex: "5"
+          zIndex: "5",
         }}
       >
         <b>Our mission</b> is to revolutionize the world of online dating by
         creating a platform where finding love is free, accessible, and
         enjoyable for everyone.
-        
       </Paper>
     </div>
   );
