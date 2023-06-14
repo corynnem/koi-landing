@@ -12,16 +12,18 @@ const OurTeam = () => {
   return (
     <div
       style={{
+        position:"relative",
         display: "flex",
         justifyContent: "center",
         textAlign: "center",
+        zIndex: "5",
       }}
     >
       <div
         style={{
           display: "flex",
           justifyContent: "center",
-          marginTop: "0px",
+          marginTop: "100px",
           flexDirection: "column",
           textAlign: "center",
           width: "80vw",
@@ -34,7 +36,7 @@ const OurTeam = () => {
               flexDirection: "row",
               justifyContent: "center",
               flexWrap: "wrap",
-              gap: "40px",
+              gap: "20px",
             }}
           >
             <div>

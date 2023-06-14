@@ -9,7 +9,7 @@ const FlipCards = () => {
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-around",
-        marginTop: "50px",
+        marginTop: "0px",
         marginBottom: "100px",
         gap: "20px 30px",
         flexWrap: "wrap",

@@ -47,9 +47,10 @@ const ContactPage = () => {
           width: "100vw",
           height: "100vh",
           overflowY: "scroll",
+          
         }}
       >
-        <div style={{ marginTop: "100px" }}>
+        <div style={{ marginTop: "150px" }}>
           <div
             style={{
               display: "flex",
@@ -111,37 +112,36 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
+
+        <center>
         <div
           style={{
-            marginTop: "-40px",
+            marginTop: "50px",
+            marginBottom: "50px"
           }}
         >
-          <br />
-
           <div
             className="abt-paper"
             style={{
-              padding: "50px",
+              padding: "",
               backgroundImage: ` url(${flowerBackdrop.src})`,
               height: "500px",
-              width: "400px",
-
-              position: "absolute",
-              top: "60%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              padding: "10px",
+              width: "30vw",
+              minWidth: "250px", 
+              position: "relative",
               borderRadius: "10px",
             }}
           >
+            
             <form
               id="fs-frm"
               name="simple-contact-form"
               accept-charset="utf-8"
               action="https://formspree.io/f/mzbqoorz"
               method="post"
-              style={{ padding: "20px" }}
+              
             >
+              
               <fieldset
                 id="fs-frm-inputs"
                 style={{
@@ -150,12 +150,19 @@ const ContactPage = () => {
                   flexDirection: "column",
                 }}
               >
-                <div>
+                
+                <div
+                className="form-box"
+                style={{
+                  marginTop: "20px",
+                }}
+                >
                   <h3 for="full-name">Name</h3>
                   <input
                     type="text"
                     name="name"
                     id="full-name"
+                    className="form-feild"
                     placeholder="First and Last"
                     required=""
                     style={inputStyles}
@@ -163,13 +170,16 @@ const ContactPage = () => {
                 </div>
                 <br />
                 <br />
-                <div>
+                <div
+                className="form-box"
+                >
                   <h3 for="email-address">Email Address</h3>
 
                   <input
                     type="email"
                     name="_replyto"
                     id="email-address"
+                    className="form-feild"
                     placeholder="email@domain.tld"
                     required=""
                     style={inputStyles}
@@ -177,22 +187,26 @@ const ContactPage = () => {
                 </div>
                 <br />
                 <br />
-                <div>
+                <div
+                className="form-box"
+                >
                   <h3 for="message">Message</h3>
                   <textarea
                     rows="5"
                     name="message"
                     id="message"
+                    
                     placeholder="Let us know what's up"
                     required=""
                     style={{
                       height: "200px",
-                      width: "350px",
+                      width: "80%",
                       marginTop: "5px",
                       borderRadius: "5px",
                       border: "none",
                       padding: "5px",
                       resize: "none",
+                      
                     }}
                   ></textarea>
                 </div>
@@ -209,15 +223,18 @@ const ContactPage = () => {
                 value="Submit"
                 style={{
                   height: "25px",
-                  width: "350px",
+                  width: "80%",
                   backgroundColor: "#d46407",
                   border: "none",
                   borderRadius: "5px",
                 }}
               />
+              
             </form>
+            
           </div>
         </div>
+        </center>
       </div>
     </div>
   );

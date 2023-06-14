@@ -40,7 +40,7 @@ const OurTeamPage = () => {
           style={{
             display: "flex",
             justifyContent: "center",
-            marginTop: "100px",
+            marginTop: "150px",
             flexDirection: "column",
             textAlign: "center",
             width: "80vw",
@@ -54,6 +54,7 @@ const OurTeamPage = () => {
                 justifyContent: "center",
                 flexWrap: "wrap",
                 gap: "40px",
+                zIndex: "5",
               }}
             >
               <div>

@@ -87,7 +87,7 @@ const AboutUsPage = () => {
               gap: "10px",
               paddingBottom: "20px",
               justifyContent: "center",
-              marginTop: "250px",
+              marginTop: "150px",
             }}
           >
             <div>
@@ -165,16 +165,18 @@ const AboutUsPage = () => {
           <div
             className="abt-paper"
             style={{
-              padding: "50px",
+              padding: "30px",
               marginTop: "-110px",
+              borderRadius: "30px",
             }}
           >
             <center>
               <p className="project-explain">
-                Want to hear all about Koi&apos;s solutions to the major dating
-                app problems?<br></br> Have no fear! Just click on a problem to
-                see how we plan to fix it.{" "}
+                Koi&apos;s Solutions 
               </p>
+              <br></br> 
+              <p>Just click on a problem to
+                see how we plan to fix it.{" "}</p>
             </center>
             <br></br>
 

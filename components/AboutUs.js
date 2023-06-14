@@ -13,7 +13,7 @@ import letterE2 from "../public/images/letters/E4.png";
 import letterC from "../public/images/letters/C4.png";
 import letterT2 from "../public/images/letters/T3.png";
 import paperBackdrop from "../public/images/paper_backdrop.jpg";
-import leftleaf from "../public/images/leftLeaf.png";
+
 import bestLeaf from "../public/images/best_leaf.png";
 import robots from "../public/images/robots.png";
 import noMore from "../public/images/no_more.png";
@@ -29,8 +29,9 @@ const About = () => {
       style={{
         display: "flex",
         justifyContent: "center",
-        marginTop: "100px",
+        marginTop: "250px",
         position: "relative",
+        zIndex: "5",
       }}
     >
       <svg width="0" height="0">
@@ -62,10 +63,12 @@ const About = () => {
           style={{
             display: "flex",
             justifyContent: "center",
-            width: "80vw",
+            width: "94vw",
             flexDirection: "column",
             backgroundImage: ` url(${paperBackdrop.src})`,
             padding: "50px 10px 10px 10px",
+            borderBottomLeftRadius: "30px",
+            borderBottomRightRadius: "30px",
           }}
         >
           {/* start about header  */}
@@ -84,7 +87,7 @@ const About = () => {
               <div>
                 <img
                   src={letterT.src}
-                  className=" outline large"
+                  className=" outline large "
                   alt="Letter T"
                 />
                 <img
@@ -142,12 +145,13 @@ const About = () => {
           {/* END about header  */}
 
           <center>
-            <p className="blue-cutout">
+            {/* <p className="blue-cutout">
               WE ARE DEVELOPING A DATING APP THAT ACTUALLY WORKS!
-            </p>
+            </p> */}
             <br></br>
             <iframe
               id="video"
+              className="shaddow3"
               src="https://www.youtube.com/embed/ZjBZWkRDsoc"
               title="YouTube video player"
               frameBorder="0"
@@ -157,37 +161,29 @@ const About = () => {
               mozallowfullscreen="true"
             ></iframe>
 
-            <Image
-              alt="swiping on dating apps"
-              src={leftleaf}
-              className="leftleaf"
-            />
+           
           </center>
 
           {/* start explanation  */}
+          <center>
           <div
+          className="text-box shaddow"
             style={{
               display: "flex",
-              justifyContent: "center",
               marginTop: "40px",
               marginBottom: "40px",
             }}
           >
-            <p className="project-explain">
-              {" "}
-              It&apos;s time for a new kind of dating app... Koi is made up of a
-              small team of programmers, designers, and writers who have come
-              together to build a dating app that actually cares about helping
-              people find love. We&apos;ve created a two-way search system
-              that&apos;s designed to show you only the people you WANT to see!
-              If you would like a more in-depth explanation, check out our list
-              of solutions
-              <br></br>
-              <a id="clickhere" onClick={() => router.push("/about")}>
-                Here!
-              </a>
+            <p className="project-explain ">
+              Want a more in depth explanation? 
             </p>
+            <br></br>
+            <span><a id="clickhere" className="btn-1" onClick={() => router.push("/about")}>
+                Tap Here!
+              </a></span>
+              
           </div>
+          </center>
           {/* end explanation  */}
         </div>
       </div>
