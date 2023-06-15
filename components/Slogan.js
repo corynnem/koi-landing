@@ -1,18 +1,21 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import LowerA from "../public/images/letters/LowerA.png";
-import LowerN from "../public/images/letters/LowerN.png";
-import UpperA from "../public/images/letters/UpperA.png";
-import LowerP from "../public/images/letters/LowerP.png";
-import LowerP2 from "../public/images/letters/LowerP2.png";
-import UpperT from "../public/images/letters/UpperT.png";
-import LowerO from "../public/images/letters/LowerO.png";
-import UpperF from "../public/images/letters/UpperF.png";
-import LowerI from "../public/images/letters/LowerI.png";
-import LowerD from "../public/images/letters/LowerD.png";
-import UpperL from "../public/images/letters/UpperL.png";
-import LowerV from "../public/images/letters/LowerV.png";
-import UpperE from "../public/images/letters/UpperE.png";
+import LowerA from "../public/images/letters/A3.png";
+import LowerN from "../public/images/letters/N5.png";
+import UpperA from "../public/images/letters/A6.png";
+import LowerP from "../public/images/letters/P4.png";
+import LowerP2 from "../public/images/letters/P6.png";
+import UpperT from "../public/images/letters/T3.png";
+import redLowerO from "../public/images/letters/o4red.jpg";
+import LowerO from "../public/images/letters/o3.jpg";
+import UpperF from "../public/images/letters/F5.png";
+import LowerI from "../public/images/letters/I5.png";
+import LowerD from "../public/images/letters/D1.png";
+import redUpperL from "../public/images/letters/L2red.jpg";
+import UpperL from "../public/images/letters/L3.jpg";
+import LowerV from "../public/images/letters/v5.jpg";
+import redUpperE from "../public/images/letters/E3red.png";
+import UpperE from "../public/images/letters/E4.png";
 import UpperS from "../public/images/letters/UpperS.png";
 import LowerH from "../public/images/letters/LowerH.png";
 import UpperO from "../public/images/letters/UpperO.png";
@@ -20,10 +23,6 @@ import UpperU from "../public/images/letters/UpperU.png";
 import LowerL from "../public/images/letters/LowerL.png";
 import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
-import koi from "../public/images/fish.gif";
-import lily from "../public/images/lilypad.png";
-import leaf from "../public/images/Pear_Leaf.png";
-import splat from "../public/images/splat.png";
 import About from "components/AboutUs";
 import MissionStatement from "components/MissionStatement";
 import OurTeam from "components/OurTeam";
@@ -38,16 +37,36 @@ const Slogan = () => {
   const router = useRouter();
   return (
     <div
-      className="ripples border-purple"
+      className=" border-purple"
       style={{
-        backgroundAttachment: "fixed",
-        backgroundSize: "cover",
         height: "100vh",
-        minWidth: "354px",
+        width: "100vw",
         position: "relative",
-        backgroundImage: ` url(${koi.src})`,
+        overflowX: "hidden",
+        overflowY: "hidden",
+        backgroundColor: "#266382",
       }}
     >
+      {/* start circles  */}
+      <div id="blue-circle" className="top-circle"></div>
+      <div id="blue-ripple" className="ripple-for-circle">
+        <div id="blue-mask" className="ripple-mask"></div>
+      </div>
+
+      <div id="orange-circle" className="top-circle"></div>
+      <div id="orange-ripple" className="ripple-for-circle">
+        <div id="orange-mask" className="ripple-mask"></div>
+      </div>
+
+      <div id="yellow-circle" className="top-circle">
+        <div id="yellow-circle-ring-mask" className=""></div>
+      </div>
+      <div id="yellow-ripple" className="ripple-for-circle">
+        <div id="yellow-mask" className="ripple-mask"></div>
+      </div>
+
+      {/* end circles */}
+
       {/* Start collage Section */}
       <div
         className="dot-border-blue"
@@ -57,17 +76,21 @@ const Slogan = () => {
           width: "100vw",
           height: "100vh",
           overflowY: "scroll",
+          overflowX: "visible",
         }}
       >
         {/* Start Letters Section */}
         <div
-          className="letter-box border-yellow"
+          id="hero-letters"
+          className="letter-box "
           style={{
             display: "flex",
             flexDirection: "column",
             position: "absolute",
+            paddingTop: "20px",
+            paddingBottom: "20px",
             // you can now control the spacing by changing the width prop
-
+            overflowX: "visible",
             left: "50%",
             top: "16vh",
 
@@ -83,8 +106,8 @@ const Slogan = () => {
               flexWrap: "wrap",
 
               justifyContent: "center",
-              columnGap: "10%",
-              rowGap: "6vh",
+              columnGap: "15%",
+              rowGap: "5vh",
             }}
           >
             {" "}
@@ -92,13 +115,17 @@ const Slogan = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "1px",
               }}
             >
-              <img src={UpperA.src} className=" outline large" alt="Letter A" />
+              <img
+                src={UpperA.src}
+                className=" outline large shaddow3"
+                alt="Letter A"
+              />
               <img
                 src={LowerN.src}
-                className=" outline medium"
+                className=" outline medium shaddow2"
                 alt="Letter N"
               />
             </div>
@@ -106,12 +133,12 @@ const Slogan = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
                 src={LowerA.src}
-                className=" outline medium"
+                className=" outline medium shaddow3"
                 alt="Letter A"
               />
               <img
@@ -121,7 +148,7 @@ const Slogan = () => {
               />
               <img
                 src={LowerP2.src}
-                className=" outline medium"
+                className=" outline medium shaddow1"
                 alt="Letter P"
               />
             </div>
@@ -129,7 +156,7 @@ const Slogan = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
@@ -137,13 +164,17 @@ const Slogan = () => {
                 className=" outline medium"
                 alt="Letter T"
               />
-              <img src={LowerO.src} className=" outline small" alt="Letter O" />
+              <img
+                src={LowerO.src}
+                className=" outline small shaddow2"
+                alt="Letter O"
+              />
             </div>
             <div
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
@@ -153,7 +184,7 @@ const Slogan = () => {
               />
               <img
                 src={LowerI.src}
-                className=" outline medium"
+                className=" outline medium shaddow2"
                 alt="Letter I"
               />
               <img
@@ -163,7 +194,7 @@ const Slogan = () => {
               />
               <img
                 src={LowerD.src}
-                className=" outline medium"
+                className=" outline medium shaddow3"
                 alt="Letter D"
               />
             </div>
@@ -171,27 +202,66 @@ const Slogan = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
-                src={UpperL.src}
-                className=" outline medium"
+                src={redUpperL.src}
+                className=" outline medium shaddow3"
                 alt="Letter L"
               />
-              <img src={LowerO.src} className=" outline small" alt="Letter O" />
+              <img
+                src={redLowerO.src}
+                className=" outline small shaddow1"
+                alt="Letter O"
+              />
               <img
                 src={LowerV.src}
-                className=" outline medium"
+                className=" outline medium shaddow3"
                 alt="Letter V"
               />
-              <img src={UpperE.src} className=" outline small" alt="Letter E" />
+              <img
+                src={redUpperE.src}
+                className=" outline small shaddow1"
+                alt="Letter E"
+              />
             </div>
+            {/* start support card */}
+            <div className="support_card ">
+              <a onClick={() => router.push("/support-us")}>
+                <div
+                  className="border-blue btn-1 shaddow3"
+                  style={{
+                    padding: "10px",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center",
+                  }}
+                >
+                  <p
+                    style={{
+                      paddingTop: "5px",
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "center",
+                      pointerEvents: "none",
+                      fontSize: "25px",
+                      color: "white",
+                      fontFamily: "sans-serif",
+                      fontWeight: "600",
+                    }}
+                  >
+                    SUPPORT US!
+                  </p>
+                </div>
+              </a>
+            </div>
+            {/* end support card */}
             <div
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
@@ -235,7 +305,7 @@ const Slogan = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
@@ -259,7 +329,7 @@ const Slogan = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
@@ -282,7 +352,7 @@ const Slogan = () => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                gap: "10px",
+                gap: "3px",
               }}
             >
               <img
@@ -300,44 +370,6 @@ const Slogan = () => {
 
           <div style={{ display: "flex", flexDirection: "row" }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}></div>
-
-          <a onClick={() => router.push("/support-us")}>
-            <div
-              className="border-blue"
-              style={{
-                paddingTop: "30px",
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                transform: "rotate(5deg)",
-              }}
-            >
-              <Image
-                alt="splattered background"
-                src={splat}
-                style={{
-                  width: "50vh",
-                  height: "auto",
-                  cursor: "pointer",
-                }}
-                className="splat"
-                priority
-              />
-              <p
-                style={{
-                  position: "absolute",
-                  paddingTop: "5px",
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "center",
-                  pointerEvents: "none",
-                  fontSize: "4vh",
-                }}
-              >
-                SUPPORT THE <br></br> MOVEMENT!
-              </p>
-            </div>
-          </a>
         </div>
         {/* End Letters Section */}
 
@@ -362,7 +394,7 @@ const Slogan = () => {
               marginRight: "auto",
             }}
           >
-            <Image src={lily} className="lillyPad" alt="lilly pad" priority />
+            {/* <Image src={lily} className="lillyPad" alt="lilly pad" priority /> */}
             {/* <Image src={leaf} className="a-leaf" alt="lilly pad" priority /> */}
           </div>
         </div>
