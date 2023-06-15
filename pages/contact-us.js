@@ -47,7 +47,6 @@ const ContactPage = () => {
           width: "100vw",
           height: "100vh",
           overflowY: "scroll",
-          
         }}
       >
         <div style={{ marginTop: "150px" }}>
@@ -114,126 +113,114 @@ const ContactPage = () => {
         </div>
 
         <center>
-        <div
-          style={{
-            marginTop: "50px",
-            marginBottom: "50px"
-          }}
-        >
           <div
-            className="abt-paper"
             style={{
-              padding: "",
-              backgroundImage: ` url(${flowerBackdrop.src})`,
-              height: "500px",
-              width: "30vw",
-              minWidth: "250px", 
-              position: "relative",
-              borderRadius: "10px",
+              marginTop: "50px",
+              marginBottom: "50px",
             }}
           >
-            
-            <form
-              id="fs-frm"
-              name="simple-contact-form"
-              accept-charset="utf-8"
-              action="https://formspree.io/f/mzbqoorz"
-              method="post"
-              
+            <div
+              className="abt-paper"
+              style={{
+                padding: "",
+                backgroundImage: ` url(${flowerBackdrop.src})`,
+                height: "500px",
+                width: "30vw",
+                minWidth: "250px",
+                position: "relative",
+                borderRadius: "10px",
+              }}
             >
-              
-              <fieldset
-                id="fs-frm-inputs"
-                style={{
-                  border: "none",
-                  display: "flex",
-                  flexDirection: "column",
-                }}
+              <form
+                id="fs-frm"
+                name="simple-contact-form"
+                acceptCharset="utf-8"
+                action="https://formspree.io/f/mzbqoorz"
+                method="post"
               >
-                
-                <div
-                className="form-box"
-                style={{
-                  marginTop: "20px",
-                }}
+                <fieldset
+                  id="fs-frm-inputs"
+                  style={{
+                    border: "none",
+                    display: "flex",
+                    flexDirection: "column",
+                  }}
                 >
-                  <h3 for="full-name">Name</h3>
-                  <input
-                    type="text"
-                    name="name"
-                    id="full-name"
-                    className="form-feild"
-                    placeholder="First and Last"
-                    required=""
-                    style={inputStyles}
-                  />
-                </div>
-                <br />
-                <br />
-                <div
-                className="form-box"
-                >
-                  <h3 for="email-address">Email Address</h3>
-
-                  <input
-                    type="email"
-                    name="_replyto"
-                    id="email-address"
-                    className="form-feild"
-                    placeholder="email@domain.tld"
-                    required=""
-                    style={inputStyles}
-                  />
-                </div>
-                <br />
-                <br />
-                <div
-                className="form-box"
-                >
-                  <h3 for="message">Message</h3>
-                  <textarea
-                    rows="5"
-                    name="message"
-                    id="message"
-                    
-                    placeholder="Let us know what's up"
-                    required=""
+                  <div
+                    className="form-box"
                     style={{
-                      height: "200px",
-                      width: "80%",
-                      marginTop: "5px",
-                      borderRadius: "5px",
-                      border: "none",
-                      padding: "5px",
-                      resize: "none",
-                      
+                      marginTop: "20px",
                     }}
-                  ></textarea>
-                </div>
+                  >
+                    <h3 htmlFor="full-name">Name</h3>
+                    <input
+                      type="text"
+                      name="name"
+                      id="full-name"
+                      className="form-feild"
+                      placeholder="First and Last"
+                      required=""
+                      style={inputStyles}
+                    />
+                  </div>
+                  <br />
+                  <br />
+                  <div className="form-box">
+                    <h3 htmlFor="email-address">Email Address</h3>
 
+                    <input
+                      type="email"
+                      name="_replyto"
+                      id="email-address"
+                      className="form-feild"
+                      placeholder="email@domain.tld"
+                      required=""
+                      style={inputStyles}
+                    />
+                  </div>
+                  <br />
+                  <br />
+                  <div className="form-box">
+                    <h3 htmlFor="message">Message</h3>
+                    <textarea
+                      rows="5"
+                      name="message"
+                      id="message"
+                      placeholder="Let us know what's up"
+                      required=""
+                      style={{
+                        height: "200px",
+                        width: "80%",
+                        marginTop: "5px",
+                        borderRadius: "5px",
+                        border: "none",
+                        padding: "5px",
+                        resize: "none",
+                      }}
+                    ></textarea>
+                  </div>
+
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    id="email-subject"
+                    value="Contact Form Submission"
+                  />
+                </fieldset>
                 <input
-                  type="hidden"
-                  name="_subject"
-                  id="email-subject"
-                  value="Contact Form Submission"
+                  type="submit"
+                  value="Submit"
+                  style={{
+                    height: "25px",
+                    width: "80%",
+                    backgroundColor: "#d46407",
+                    border: "none",
+                    borderRadius: "5px",
+                  }}
                 />
-              </fieldset>
-              <input
-                type="submit"
-                value="Submit"
-                style={{
-                  height: "25px",
-                  width: "80%",
-                  backgroundColor: "#d46407",
-                  border: "none",
-                  borderRadius: "5px",
-                }}
-              />
-              
-            </form>
-            
+              </form>
+            </div>
           </div>
-        </div>
         </center>
       </div>
     </div>

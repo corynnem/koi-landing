@@ -233,7 +233,6 @@ const Slogan = () => {
                   className="border-blue btn-1 shaddow3"
                   style={{
                     padding: "10px",
-                    // margin: "20px",
                     display: "flex",
                     flexDirection: "row",
                     justifyContent: "center",
@@ -247,7 +246,7 @@ const Slogan = () => {
                       justifyContent: "center",
                       pointerEvents: "none",
                       fontSize: "25px",
-                      color: "#266382",
+                      color: "white",
                       fontFamily: "sans-serif",
                       fontWeight: "600",
                     }}
