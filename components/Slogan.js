@@ -6,14 +6,14 @@ import UpperA from "../public/images/letters/A6.png";
 import LowerP from "../public/images/letters/P4.png";
 import LowerP2 from "../public/images/letters/P6.png";
 import UpperT from "../public/images/letters/T3.png";
-import redLowerO from "../public/images/letters/o4red.JPG";
-import LowerO from "../public/images/letters/o3.JPG";
+import redLowerO from "../public/images/letters/o4red.jpg";
+import LowerO from "../public/images/letters/o3.jpg";
 import UpperF from "../public/images/letters/F5.png";
 import LowerI from "../public/images/letters/I5.png";
 import LowerD from "../public/images/letters/D1.png";
-import redUpperL from "../public/images/letters/L2red.JPG";
-import UpperL from "../public/images/letters/L3.JPG";
-import LowerV from "../public/images/letters/v5.JPG";
+import redUpperL from "../public/images/letters/L2red.jpg";
+import UpperL from "../public/images/letters/L3.jpg";
+import LowerV from "../public/images/letters/v5.jpg";
 import redUpperE from "../public/images/letters/E3red.png";
 import UpperE from "../public/images/letters/E4.png";
 import UpperS from "../public/images/letters/UpperS.png";
@@ -50,34 +50,28 @@ const Slogan = () => {
         position: "relative",
         overflowX: "hidden",
         // backgroundImage: ` url(${koi.src})`,
-        backgroundColor: "#266382"
+        backgroundColor: "#266382",
       }}
     >
-
       {/* start circles  */}
       <div id="blue-circle" className="top-circle"></div>
       <div id="blue-ripple" className="ripple-for-circle">
-        <div id="blue-mask" className="ripple-mask"> 
-        </div>
+        <div id="blue-mask" className="ripple-mask"></div>
       </div>
 
       <div id="orange-circle" className="top-circle"></div>
       <div id="orange-ripple" className="ripple-for-circle">
-        <div id="orange-mask" className="ripple-mask"> 
-        </div>
+        <div id="orange-mask" className="ripple-mask"></div>
       </div>
 
-      
       <div id="yellow-circle" className="top-circle">
-      <div id="yellow-circle-ring-mask" className=""></div>
+        <div id="yellow-circle-ring-mask" className=""></div>
       </div>
       <div id="yellow-ripple" className="ripple-for-circle">
-        <div id="yellow-mask" className="ripple-mask"> 
-        </div>
+        <div id="yellow-mask" className="ripple-mask"></div>
       </div>
 
-
-{/* end circles */}
+      {/* end circles */}
 
       {/* Start collage Section */}
       <div
@@ -88,12 +82,12 @@ const Slogan = () => {
           width: "100vw",
           height: "100vh",
           overflowY: "scroll",
-          overflowX: "visible" ,
+          overflowX: "visible",
         }}
       >
         {/* Start Letters Section */}
         <div
-        id="hero-letters"
+          id="hero-letters"
           className="letter-box "
           style={{
             display: "flex",
@@ -105,7 +99,7 @@ const Slogan = () => {
             overflowX: "visible",
             left: "50%",
             top: "16vh",
-            
+
             transform: "translate(-50%, 0%)",
             zIndex: "10",
           }}
@@ -116,7 +110,7 @@ const Slogan = () => {
               display: "flex",
               flexDirection: "row",
               flexWrap: "wrap",
-              
+
               justifyContent: "center",
               columnGap: "15%",
               rowGap: "5vh",
@@ -130,10 +124,11 @@ const Slogan = () => {
                 gap: "1px",
               }}
             >
-              <img 
-              src={UpperA.src} 
-              className=" outline large shaddow3" 
-              alt="Letter A" />
+              <img
+                src={UpperA.src}
+                className=" outline large shaddow3"
+                alt="Letter A"
+              />
               <img
                 src={LowerN.src}
                 className=" outline medium shaddow2"
@@ -175,7 +170,11 @@ const Slogan = () => {
                 className=" outline medium"
                 alt="Letter T"
               />
-              <img src={LowerO.src} className=" outline small shaddow2" alt="Letter O" />
+              <img
+                src={LowerO.src}
+                className=" outline small shaddow2"
+                alt="Letter O"
+              />
             </div>
             <div
               style={{
@@ -217,56 +216,54 @@ const Slogan = () => {
                 className=" outline medium shaddow3"
                 alt="Letter L"
               />
-              <img src={redLowerO.src} className=" outline small shaddow1" alt="Letter O" />
+              <img
+                src={redLowerO.src}
+                className=" outline small shaddow1"
+                alt="Letter O"
+              />
               <img
                 src={LowerV.src}
                 className=" outline medium shaddow3"
                 alt="Letter V"
               />
-              <img 
-              src={redUpperE.src} 
-              className=" outline small shaddow1" 
-              alt="Letter E" />
+              <img
+                src={redUpperE.src}
+                className=" outline small shaddow1"
+                alt="Letter E"
+              />
             </div>
-
             {/* start support card */}
-            <div
-            className="support_card "
-            >
-            <a onClick={() => router.push("/support-us")}>
-            <div
-              className="border-blue btn-1 shaddow3"
-              style={{
-                padding: "10px",
-                // margin: "20px",
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                
-              }}
-            >
-              
-              <p
-                style={{
-                  
-                  paddingTop: "5px",
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "center",
-                  pointerEvents: "none",
-                  fontSize: "25px",
-                  color: "#266382",
-                  fontFamily: "sans-serif",
-                  fontWeight: "600",
-                  
-                }}
-              >
-                SUPPORT US!
-              </p>
+            <div className="support_card ">
+              <a onClick={() => router.push("/support-us")}>
+                <div
+                  className="border-blue btn-1 shaddow3"
+                  style={{
+                    padding: "10px",
+                    // margin: "20px",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "center",
+                  }}
+                >
+                  <p
+                    style={{
+                      paddingTop: "5px",
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "center",
+                      pointerEvents: "none",
+                      fontSize: "25px",
+                      color: "#266382",
+                      fontFamily: "sans-serif",
+                      fontWeight: "600",
+                    }}
+                  >
+                    SUPPORT US!
+                  </p>
+                </div>
+              </a>
             </div>
-          </a>
-          </div>
-          {/* end support card */}
+            {/* end support card */}
             <div
               style={{
                 display: "flex",
@@ -380,8 +377,6 @@ const Slogan = () => {
 
           <div style={{ display: "flex", flexDirection: "row" }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}></div>
-
-          
         </div>
         {/* End Letters Section */}
 
