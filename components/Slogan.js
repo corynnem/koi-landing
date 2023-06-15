@@ -23,10 +23,6 @@ import UpperU from "../public/images/letters/UpperU.png";
 import LowerL from "../public/images/letters/LowerL.png";
 import LowerT from "../public/images/letters/LowerT.png";
 import UpperY from "../public/images/letters/UpperY.png";
-import koi from "../public/images/fish.gif";
-import lily from "../public/images/lilypad.png";
-import leaf from "../public/images/Pear_Leaf.png";
-import splat from "../public/images/splat.png";
 import About from "components/AboutUs";
 import MissionStatement from "components/MissionStatement";
 import OurTeam from "components/OurTeam";
@@ -43,13 +39,11 @@ const Slogan = () => {
     <div
       className=" border-purple"
       style={{
-        // backgroundAttachment: "fixed",
-        // backgroundSize: "cover",
         height: "100vh",
         width: "100vw",
         position: "relative",
         overflowX: "hidden",
-        // backgroundImage: ` url(${koi.src})`,
+        overflowY: "hidden",
         backgroundColor: "#266382",
       }}
     >
