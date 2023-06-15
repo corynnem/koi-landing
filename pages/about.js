@@ -69,8 +69,7 @@ const AboutUsPage = () => {
         style={{
           position: "absolute",
 
-          paddingLeft: "5%",
-          paddingRight: "5%",
+          
           position: "relative",
 
           width: "100vw",
@@ -157,7 +156,7 @@ const AboutUsPage = () => {
             alt="wooden figure sitting on the text"
             src={woodenFigure.src}
             style={{
-              marginLeft: "-50px",
+              marginLeft: "50px",
               width: "150px",
               height: "auto",
             }}
@@ -167,7 +166,8 @@ const AboutUsPage = () => {
             style={{
               padding: "30px",
               marginTop: "-110px",
-              borderRadius: "30px",
+              
+              // width: "100vw",
             }}
           >
             <center>
@@ -175,7 +175,7 @@ const AboutUsPage = () => {
                 Koi&apos;s Solutions 
               </p>
               <br></br> 
-              <p>Just click on a problem to
+              <p className="project-explain-subtitle">Just click on a problem to
                 see how we plan to fix it.{" "}</p>
             </center>
             <br></br>

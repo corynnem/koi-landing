@@ -45,7 +45,7 @@ const Slogan = () => {
         position: "relative",
         overflowX: "hidden",
         overflowY: "hidden",
-        backgroundColor: "#266382",
+        // backgroundColor: "#266382",
       }}
     >
       {/* start circles  */}
