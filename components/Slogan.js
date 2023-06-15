@@ -37,6 +37,7 @@ const Slogan = () => {
   const router = useRouter();
   return (
     <div
+    id="first-page"
       className=" border-purple"
       style={{
         height: "100vh",
