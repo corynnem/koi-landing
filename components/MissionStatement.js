@@ -22,6 +22,7 @@ const MissionStatement = () => {
         padding: "30px",
         marginBottom: "150px",
         zIndex: "5",
+        backgroundImage: ` url(${flowerBackdrop.src})`,
        
       }}
     >
@@ -38,10 +39,11 @@ const MissionStatement = () => {
         /> */}
       </div>
       <Paper
+      className="shaddow"
         style={{
           padding: "20px",
           width: "70vw",
-          backgroundImage: ` url(${flowerBackdrop.src})`,
+          backgroundColor: "#00000000",
           fontSize: "20px",
           zIndex: "5",
         }}

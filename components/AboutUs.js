@@ -63,12 +63,11 @@ const About = () => {
           style={{
             display: "flex",
             justifyContent: "center",
-            width: "94vw",
+            width: "100vw",
             flexDirection: "column",
             backgroundImage: ` url(${paperBackdrop.src})`,
             padding: "50px 10px 10px 10px",
-            borderBottomLeftRadius: "30px",
-            borderBottomRightRadius: "30px",
+            
           }}
         >
           {/* start about header  */}

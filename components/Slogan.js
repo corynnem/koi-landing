@@ -37,6 +37,7 @@ const Slogan = () => {
   const router = useRouter();
   return (
     <div
+    id="first-page"
       className=" border-purple"
       style={{
         height: "100vh",
@@ -44,7 +45,7 @@ const Slogan = () => {
         position: "relative",
         overflowX: "hidden",
         overflowY: "hidden",
-        backgroundColor: "#266382",
+        // backgroundColor: "#266382",
       }}
     >
       {/* start circles  */}
