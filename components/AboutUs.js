@@ -173,7 +173,7 @@ const About = () => {
               marginBottom: "40px",
             }}
           >
-            <p className="project-explain ">
+            <p className="project-explain-white ">
               Want a more in depth explanation? 
             </p>
             <br></br>

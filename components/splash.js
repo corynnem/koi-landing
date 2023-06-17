@@ -13,7 +13,7 @@ return(
         top: "0",
         width: "100%",
         height: "100%",
-        backgroundColor: "#fff",
+        backgroundColor: "#3cd8ff",
         display: "flex", 
         justifyContent: "center",
         alignItems: "center",
