@@ -171,7 +171,7 @@ const AboutUsPage = () => {
             }}
           >
             <center>
-              <p className="project-explain">
+              <p className="project-explain-black">
                 Koi&apos;s Solutions 
               </p>
               <br></br> 

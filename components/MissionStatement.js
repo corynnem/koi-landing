@@ -48,7 +48,7 @@ const MissionStatement = () => {
           zIndex: "5",
         }}
       ><center>
-        <b className="project-explain">Our mission</b>
+        <b className="project-explain-black">Our mission</b>
         <br></br> is to revolutionize the world of online dating by
         creating a platform where finding love is free, accessible, and
         enjoyable for everyone.
